@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>StarsAI Design | Works Gallery</title>
+  <meta name="description" content="StarsAI Design 个人作品画廊，展示原创 IP、同人作品、创作过程与提示词档案。">
+  <meta name="theme-color" content="#060914">
+  <meta property="og:title" content="StarsAI Design Works Gallery">
+  <meta property="og:description" content="AI 艺术创作的无限可能。">
+  <meta property="og:image" content="assets/concept-gallery.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700;800;900&family=Noto+Serif+SC:wght@700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="works-page">
+  <main class="gallery-shell" aria-labelledby="gallery-title">
+    <section class="browser-frame">
+      <header class="browser-top">
+        <div class="browser-dots" aria-hidden="true"><span></span><span></span><span></span></div>
+        <div class="browser-arrows" aria-hidden="true"><span>‹</span><span>›</span></div>
+        <div class="browser-address">starsai.design/works</div>
+        <div class="browser-actions" aria-hidden="true"><span>↗</span><span>＋</span><span>□</span></div>
+      </header>
+
+      <nav class="gallery-nav" aria-label="作品页导航">
+        <a class="gallery-brand" href="index.html">StarsAI Design</a>
+        <div class="desktop-nav">
+          <a class="is-active" href="works.html">Works Gallery</a>
+          <a href="index.html#ip">About</a>
+          <a href="#process">Process</a>
+          <a href="mailto:hello@example.com">Contact</a>
+        </div>
+        <a class="round-star" href="index.html" aria-label="返回主页">✦</a>
+      </nav>
+
+      <section class="gallery-hero">
+        <h1 id="gallery-title">Works Gallery<span>✦</span></h1>
+        <p>AI艺术创作的无限可能</p>
+        <small>探索灵感 · 视觉叙事 · 技术美学</small>
+      </section>
+
+      <section class="gallery-workspace" id="process">
+        <div class="gallery-main">
+          <div class="filter-strip" aria-label="作品分类">
+            <button class="filter-chip is-active" type="button" data-filter="all">All</button>
+            <button class="filter-chip" type="button" data-filter="ip">Original IP</button>
+            <button class="filter-chip" type="button" data-filter="fanart">Fan Art</button>
+            <button class="filter-chip" type="button" data-filter="process">Process</button>
+            <button class="filter-chip" type="button" data-filter="prompt">Prompt</button>
+            <button class="filter-chip filter-icon" type="button" data-filter="all">⌁ 筛选</button>
+          </div>
+
+          <div class="art-grid reveal-group">
+            <article class="art-card active" tabindex="0" data-category="ip" data-title="Stellar Oracle" data-subtitle="Original IP" data-image="assets/hero-haruka.jpg" data-desc="星光编织的角色主视觉，适合作为系列入口、头像封面和长图海报。" data-size="1984 x 3172" data-model="Midjourney v6" data-tool="Photoshop" data-date="2026-05-16" data-tags="#Fantasy,#Anime,#Portrait">
+              <img src="assets/hero-haruka.jpg" alt="Stellar Oracle">
+              <button class="heart" type="button" aria-label="收藏">♡</button>
+              <div><h2>Stellar Oracle</h2><p>Original IP</p></div>
+            </article>
+            <article class="art-card" tabindex="0" data-category="ip" data-title="Neo Tokyo 2077" data-subtitle="Original IP" data-image="assets/concept-gallery.png" data-desc="霓虹城市与星空背景结合，适合用作世界观概念和系列氛围图。" data-size="1536 x 1024" data-model="Midjourney v6" data-tool="Photoshop" data-date="2026-05-16" data-tags="#Cyber,#City,#Night">
+              <img src="assets/concept-gallery.png" alt="Neo Tokyo 2077">
+              <button class="heart" type="button" aria-label="收藏">♡</button>
+              <div><h2>Neo Tokyo 2077</h2><p>Original IP</p></div>
+            </article>
+            <article class="art-card wide active-target" tabindex="0" data-category="ip" data-title="Sakura Guardian" data-subtitle="Original IP" data-image="assets/work-rabbit-series.jpg" data-desc="在樱花飘落的夜晚，少女与神兽共同守护古老的神社。光与影交织，传统与幻想共存。" data-size="1664 x 2432" data-model="Midjourney v6" data-tool="Photoshop" data-date="2024-04-12" data-tags="#Fantasy,#Anime,#Night,#Sakura,#Guardian">
+              <img src="assets/work-rabbit-series.jpg" alt="Sakura Guardian">
+              <button class="heart" type="button" aria-label="收藏">♡</button>
+              <div><h2>Sakura Guardian</h2><p>Original IP</p></div>
+            </article>
+            <article class="art-card" tabindex="0" data-category="fanart" data-title="Cyber Geisha" data-subtitle="Original IP" data-image="assets/work-ibuki-card.jpg" data-desc="传统发饰与未来视觉并置，强调人物轮廓、冷暖光源和细节装饰。" data-size="1568 x 2744" data-model="Midjourney v6" data-tool="Photoshop" data-date="2024-04-28" data-tags="#Portrait,#Cyber,#Geisha">
+              <img src="assets/work-ibuki-card.jpg" alt="Cyber Geisha">
+              <button class="heart" type="button" aria-label="收藏">♡</button>
+              <div><h2>Cyber Geisha</h2><p>Original IP</p></div>
+            </article>
+            <article class="art-card" tabindex="0" data-category="fanart" data-title="Mecha Dawn" data-subtitle="Fan Art" data-image="assets/work-cream-birthday.jpg" data-desc="高完成度竖版海报，适合用于生日主题、社交发布和活动视觉。" data-size="1634 x 2388" data-model="Midjourney v6" data-tool="Photoshop" data-date="2024-04-20" data-tags="#Mecha,#Poster,#FanArt">
+              <img src="assets/work-cream-birthday.jpg" alt="Mecha Dawn">
+              <button class="heart" type="button" aria-label="收藏">♡</button>
+              <div><h2>Mecha Dawn</h2><p>Fan Art</p></div>
+            </article>
+            <article class="art-card" tabindex="0" data-category="process" data-title="Dreamy Seaside" data-subtitle="Process" data-image="assets/work-calendar.jpg" data-desc="柔和天空、海岸与角色留白，适合展示日历、过程记录和版式尝试。" data-size="1649 x 928" data-model="Midjourney v6" data-tool="Photoshop" data-date="2024-04-08" data-tags="#Seaside,#Process,#Soft">
+              <img src="assets/work-calendar.jpg" alt="Dreamy Seaside">
+              <button class="heart" type="button" aria-label="收藏">♡</button>
+              <div><h2>Dreamy Seaside</h2><p>Process</p></div>
+            </article>
+            <article class="art-card" tabindex="0" data-category="prompt" data-title="Cosmic Whale" data-subtitle="Prompt" data-image="assets/work-ai-edit-01.jpg" data-desc="AI 改图与提示词档案，记录风格迁移、局部修正和最终包装结果。" data-size="1536 x 2688" data-model="Midjourney v6" data-tool="Photoshop" data-date="2024-05-01" data-tags="#Prompt,#Archive,#AIEdit">
+              <img src="assets/work-ai-edit-01.jpg" alt="Cosmic Whale">
+              <button class="heart" type="button" aria-label="收藏">♡</button>
+              <div><h2>Cosmic Whale</h2><p>Prompt</p></div>
+            </article>
+          </div>
+        </div>
+
+        <aside class="detail-panel" aria-live="polite">
+          <button class="panel-close" type="button" aria-label="关闭详情">×</button>
+          <div class="detail-head">
+            <img class="detail-thumb" src="assets/work-rabbit-series.jpg" alt="">
+            <div>
+              <h2>Sakura Guardian</h2>
+              <p>Original IP</p>
+            </div>
+          </div>
+          <p class="detail-desc">在樱花飘落的夜晚，少女与神兽共同守护古老的神社。光与影交织，传统与幻想共存。</p>
+          <dl class="detail-meta">
+            <div><dt>尺寸</dt><dd>1664 x 2432</dd></div>
+            <div><dt>模型</dt><dd>Midjourney v6</dd></div>
+            <div><dt>工具</dt><dd>Photoshop</dd></div>
+            <div><dt>创作时间</dt><dd>2024-04-12</dd></div>
+          </dl>
+          <div class="detail-tags"><span>#Fantasy</span><span>#Anime</span><span>#Night</span><span>#Sakura</span><span>#Guardian</span></div>
+          <a class="detail-btn" href="index.html">查看详情</a>
+        </aside>
+      </section>
+    </section>
+
+    <nav class="mobile-tabbar" aria-label="移动端导航">
+      <a href="index.html">⌂<span>首页</span></a>
+      <a class="is-active" href="works.html">✦<span>作品</span></a>
+      <a href="#process">▣<span>创作过程</span></a>
+      <a href="index.html#ip">♙<span>关于我</span></a>
+    </nav>
+  </main>
+
+  <script src="motion.js"></script>
+</body>
+</html>

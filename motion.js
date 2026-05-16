@@ -1,120 +1,116 @@
 (function () {
   const root = document.documentElement;
-  const header = document.querySelector(".site-header");
   const toggle = document.querySelector(".nav-toggle");
-  const viewButtons = Array.from(document.querySelectorAll("[data-view-target]"));
-  const viewLinks = Array.from(document.querySelectorAll("[data-view-link]"));
-  const views = Array.from(document.querySelectorAll("[data-view]"));
+  const homeHeader = document.querySelector(".home-header");
   const filterButtons = Array.from(document.querySelectorAll("[data-filter]"));
-  const cards = Array.from(document.querySelectorAll("[data-category]"));
-  const hero = document.querySelector(".hero");
-  const heroFrame = document.querySelector(".hero-frame");
+  const artCards = Array.from(document.querySelectorAll(".art-card"));
+  const detailPanel = document.querySelector(".detail-panel");
   const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-  const pointer = {
-    currentX: 0,
-    currentY: 0,
-    targetX: 0,
-    targetY: 0,
-    raf: 0
-  };
-
-  function updateScroll() {
+  function updateScrollProgress() {
     const scrollTop = window.scrollY || root.scrollTop || 0;
     const scrollable = Math.max(root.scrollHeight - window.innerHeight, 1);
     root.style.setProperty("--scroll-progress", Math.min(scrollTop / scrollable, 1).toFixed(4));
   }
 
-  function setView(viewName, updateHash, shouldScroll) {
-    const nextView = viewName === "works" ? "works" : "ip";
-
-    views.forEach((view) => {
-      view.classList.toggle("is-active", view.dataset.view === nextView);
-    });
-
-    viewButtons.forEach((button) => {
-      button.classList.toggle("is-active", button.dataset.viewTarget === nextView);
-    });
-
-    viewLinks.forEach((link) => {
-      link.classList.toggle("is-active", link.dataset.viewLink === nextView);
-    });
-
-    if (updateHash && window.location.hash !== `#${nextView}`) {
-      history.pushState(null, "", `#${nextView}`);
-    }
-
-    if (header) {
-      header.classList.remove("nav-open");
-    }
-
-    if (toggle) {
-      toggle.setAttribute("aria-expanded", "false");
-    }
-
-    updateScroll();
-
-    if (shouldScroll) {
-      window.scrollTo({ top: 0, behavior: reduceMotion ? "auto" : "smooth" });
-    }
-  }
-
-  function setFilter(filter) {
-    filterButtons.forEach((button) => {
-      button.classList.toggle("is-active", button.dataset.filter === filter);
-    });
-
-    cards.forEach((card) => {
-      const visible = filter === "all" || card.dataset.category === filter;
-      card.classList.toggle("is-hidden", !visible);
-    });
-  }
-
-  function animatePointer() {
-    pointer.currentX += (pointer.targetX - pointer.currentX) * 0.12;
-    pointer.currentY += (pointer.targetY - pointer.currentY) * 0.12;
-
-    if (heroFrame) {
-      heroFrame.style.setProperty("--pointer-x", `${pointer.currentX.toFixed(2)}px`);
-      heroFrame.style.setProperty("--pointer-y", `${pointer.currentY.toFixed(2)}px`);
-    }
-
-    if (Math.abs(pointer.targetX - pointer.currentX) > 0.1 || Math.abs(pointer.targetY - pointer.currentY) > 0.1) {
-      pointer.raf = requestAnimationFrame(animatePointer);
+  function closeMobileNav() {
+    if (!homeHeader || !toggle) {
       return;
     }
 
-    pointer.raf = 0;
+    homeHeader.classList.remove("nav-open");
+    toggle.setAttribute("aria-expanded", "false");
   }
 
-  function requestPointerFrame() {
-    if (!pointer.raf) {
-      pointer.raf = requestAnimationFrame(animatePointer);
+  function setFilter(filter) {
+    const nextFilter = filter || "all";
+
+    filterButtons.forEach((button) => {
+      button.classList.toggle("is-active", button.dataset.filter === nextFilter);
+    });
+
+    let firstVisible = null;
+
+    artCards.forEach((card) => {
+      const visible = nextFilter === "all" || card.dataset.category === nextFilter;
+      card.classList.toggle("is-hidden", !visible);
+
+      if (visible && !firstVisible) {
+        firstVisible = card;
+      }
+    });
+
+    const current = artCards.find((card) => card.classList.contains("active") && !card.classList.contains("is-hidden"));
+    if (!current && firstVisible) {
+      setActiveWork(firstVisible);
     }
   }
 
-  if (toggle && header) {
-    toggle.addEventListener("click", () => {
-      const open = header.classList.toggle("nav-open");
-      toggle.setAttribute("aria-expanded", String(open));
+  function setTags(tags) {
+    if (!detailPanel) {
+      return;
+    }
+
+    const tagBox = detailPanel.querySelector(".detail-tags");
+    if (!tagBox) {
+      return;
+    }
+
+    tagBox.innerHTML = "";
+    tags.split(",").filter(Boolean).forEach((tag) => {
+      const chip = document.createElement("span");
+      chip.textContent = tag.trim();
+      tagBox.appendChild(chip);
     });
   }
 
-  viewButtons.forEach((button) => {
-    button.addEventListener("click", () => {
-      setView(button.dataset.viewTarget, true, true);
-    });
-  });
+  function setActiveWork(card) {
+    if (!card) {
+      return;
+    }
 
-  viewLinks.forEach((link) => {
-    link.addEventListener("click", (event) => {
-      const target = link.dataset.viewLink;
-      if (target === "ip" || target === "works") {
-        event.preventDefault();
-        setView(target, true, true);
-      }
+    artCards.forEach((item) => {
+      item.classList.toggle("active", item === card);
     });
-  });
+
+    if (!detailPanel) {
+      return;
+    }
+
+    const data = card.dataset;
+    const thumb = detailPanel.querySelector(".detail-thumb");
+    const title = detailPanel.querySelector(".detail-head h2");
+    const subtitle = detailPanel.querySelector(".detail-head p");
+    const desc = detailPanel.querySelector(".detail-desc");
+    const meta = detailPanel.querySelectorAll(".detail-meta dd");
+
+    if (thumb) {
+      thumb.src = data.image || "";
+      thumb.alt = data.title || "";
+    }
+
+    if (title) title.textContent = data.title || "";
+    if (subtitle) subtitle.textContent = data.subtitle || "";
+    if (desc) desc.textContent = data.desc || "";
+
+    if (meta[0]) meta[0].textContent = data.size || "";
+    if (meta[1]) meta[1].textContent = data.model || "";
+    if (meta[2]) meta[2].textContent = data.tool || "";
+    if (meta[3]) meta[3].textContent = data.date || "";
+
+    setTags(data.tags || "");
+  }
+
+  if (toggle && homeHeader) {
+    toggle.addEventListener("click", () => {
+      const open = homeHeader.classList.toggle("nav-open");
+      toggle.setAttribute("aria-expanded", String(open));
+    });
+
+    document.querySelectorAll(".home-nav a").forEach((link) => {
+      link.addEventListener("click", closeMobileNav);
+    });
+  }
 
   filterButtons.forEach((button) => {
     button.addEventListener("click", () => {
@@ -122,27 +118,22 @@
     });
   });
 
-  window.addEventListener("hashchange", () => {
-    const hashView = window.location.hash.replace("#", "");
-    if (hashView === "ip" || hashView === "works") {
-      setView(hashView, false, false);
-    }
+  artCards.forEach((card) => {
+    card.addEventListener("click", (event) => {
+      if (event.target.closest(".heart")) {
+        event.preventDefault();
+      }
+
+      setActiveWork(card);
+    });
+
+    card.addEventListener("keydown", (event) => {
+      if (event.key === "Enter" || event.key === " ") {
+        event.preventDefault();
+        setActiveWork(card);
+      }
+    });
   });
-
-  if (!reduceMotion && hero && heroFrame) {
-    hero.addEventListener("pointermove", (event) => {
-      const rect = hero.getBoundingClientRect();
-      pointer.targetX = ((event.clientX - rect.left) / Math.max(rect.width, 1) - 0.5) * 18;
-      pointer.targetY = ((event.clientY - rect.top) / Math.max(rect.height, 1) - 0.5) * 12;
-      requestPointerFrame();
-    });
-
-    hero.addEventListener("pointerleave", () => {
-      pointer.targetX = 0;
-      pointer.targetY = 0;
-      requestPointerFrame();
-    });
-  }
 
   if (!reduceMotion && "IntersectionObserver" in window) {
     const observer = new IntersectionObserver((entries) => {
@@ -154,7 +145,7 @@
         entry.target.classList.add("is-visible");
         observer.unobserve(entry.target);
       });
-    }, { threshold: 0.1, rootMargin: "0px 0px -6% 0px" });
+    }, { threshold: 0.08, rootMargin: "0px 0px -6% 0px" });
 
     document.querySelectorAll(".reveal, .reveal-group > *").forEach((node, index) => {
       node.style.transitionDelay = `${Math.min(index * 45, 220)}ms`;
@@ -166,9 +157,10 @@
     });
   }
 
-  setView(window.location.hash.replace("#", ""), false, false);
+  const defaultActive = document.querySelector(".art-card.active-target") || artCards[0];
+  setActiveWork(defaultActive);
   setFilter("all");
-  updateScroll();
-  window.addEventListener("scroll", updateScroll, { passive: true });
-  window.addEventListener("resize", updateScroll);
+  updateScrollProgress();
+  window.addEventListener("scroll", updateScrollProgress, { passive: true });
+  window.addEventListener("resize", updateScrollProgress);
 })();
