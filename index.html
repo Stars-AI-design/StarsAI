@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>StarsAI Design | AI Art Portfolio</title>
+  <meta name="description" content="StarsAI Design 的个人主页，展示原创 IP、AI 艺术作品、创作过程与发布账号。">
+  <meta name="theme-color" content="#070912">
+  <meta property="og:title" content="StarsAI Design">
+  <meta property="og:description" content="原创 IP、AI 艺术作品与个人主页入口。">
+  <meta property="og:image" content="assets/hero-haruka.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700;800;900&family=Noto+Serif+SC:wght@700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#ip" aria-label="StarsAI Design 首页">
+        <span class="brand-mark">S</span>
+        <span class="brand-copy">
+          <strong>StarsAI Design</strong>
+          <small>@StarsAI_design</small>
+        </span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-label="打开导航" aria-expanded="false">
+        <span></span>
+      </button>
+
+      <nav class="site-nav" aria-label="主导航">
+        <a href="#ip" data-view-link="ip">IP 首页</a>
+        <a href="#works" data-view-link="works">作品集</a>
+        <a href="#links">发布账号</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="view is-active" id="ip-view" data-view="ip" aria-labelledby="ip-title">
+      <section class="hero">
+        <picture class="hero-bg">
+          <img src="assets/concept-ip-home.png" alt="" aria-hidden="true">
+        </picture>
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">AI Artist / Original IP / Visual Archive</p>
+            <h1 id="ip-title">StarsAI Design</h1>
+            <p class="hero-lead">原创角色、AI 作品、同人创作与跨平台发布入口。</p>
+            <div class="view-switch" aria-label="切换主页视图">
+              <button class="switch-btn is-active" type="button" data-view-target="ip">A · IP 首页</button>
+              <button class="switch-btn" type="button" data-view-target="works">B · 作品集</button>
+            </div>
+            <div class="hero-actions">
+              <a class="btn primary" href="#links">查看账号</a>
+              <a class="btn ghost" href="#works" data-view-link="works">进入作品集</a>
+            </div>
+          </div>
+
+          <div class="hero-stage reveal" aria-label="StarsAI Design 代表作品">
+            <div class="hero-frame">
+              <img src="assets/hero-haruka.jpg" alt="StarsAI Design 代表角色海报">
+            </div>
+            <div class="floating-card profile-card">
+              <span>Original IP</span>
+              <strong>Haruka</strong>
+              <p>Dream. Connect. Shine.</p>
+            </div>
+            <div class="floating-card metric-card">
+              <span>Portfolio</span>
+              <strong>AI Art</strong>
+              <p>Illustration / Fan Art / Prompt</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container feature-grid reveal-group">
+          <article class="feature-card">
+            <span class="card-kicker">IP Core</span>
+            <h2>角色和世界观优先</h2>
+            <p>主页的视觉中心围绕角色展开，让后续作品、视频和设定更新都能沉淀到同一个入口。</p>
+          </article>
+          <article class="feature-card">
+            <span class="card-kicker">Visual System</span>
+            <h2>星轨、玻璃与高亮边线</h2>
+            <p>页面视觉参考生成的网页例图，同时用真实作品作为第一层内容，不让主页只停留在占位。</p>
+          </article>
+          <article class="feature-card">
+            <span class="card-kicker">Mobile Ready</span>
+            <h2>手机端单独排版</h2>
+            <p>移动端使用竖向封面、短标题、大按钮和紧凑作品流，保证从社交平台点进来也能快速浏览。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section-split" id="links">
+        <div class="container link-layout">
+          <div class="link-copy reveal">
+            <p class="eyebrow">Official Links</p>
+            <h2>一个主页，连接所有发布平台</h2>
+            <p>外部平台负责传播，GitHub Pages 主页负责沉淀作品和长期入口。</p>
+          </div>
+          <div class="link-panel reveal-group" aria-label="StarsAI Design 发布账号">
+            <a class="social-link x" href="https://x.com/StarsAI_design" target="_blank" rel="noreferrer">
+              <span>X</span>
+              <strong>@StarsAI_design</strong>
+              <small>Twitter / X</small>
+            </a>
+            <a class="social-link xhs" href="https://xhslink.com/m/9p7J6KHHOSP" target="_blank" rel="noreferrer">
+              <span>小红书</span>
+              <strong>StarsAI Design</strong>
+              <small>中文社区入口</small>
+            </a>
+            <a class="social-link douyin" href="https://v.douyin.com/XASDJjB7Wbc/" target="_blank" rel="noreferrer">
+              <span>抖音</span>
+              <strong>短视频入口</strong>
+              <small>过程 / 动态 / 作品包装</small>
+            </a>
+            <a class="social-link pixiv" href="https://www.pixiv.net/users/115801778" target="_blank" rel="noreferrer">
+              <span>Pixiv</span>
+              <strong>作品归档</strong>
+              <small>插画展示</small>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container style-board">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Generated Web Concepts</p>
+            <h2>网页例图方向</h2>
+          </div>
+          <div class="concept-grid reveal-group">
+            <figure>
+              <img src="assets/example-ip-home.png" alt="IP 首页网页例图">
+              <figcaption>IP 首页</figcaption>
+            </figure>
+            <figure>
+              <img src="assets/example-gallery.png" alt="作品集网页例图">
+              <figcaption>作品集墙</figcaption>
+            </figure>
+            <figure>
+              <img src="assets/example-link-hub.png" alt="社交名片网页例图">
+              <figcaption>社交名片</figcaption>
+            </figure>
+            <figure>
+              <img src="assets/example-game-home.png" alt="暗色游戏主页网页例图">
+              <figcaption>暗色主页</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <section class="view" id="works-view" data-view="works" aria-labelledby="works-title">
+      <section class="works-hero">
+        <img class="works-bg" src="assets/concept-gallery.png" alt="" aria-hidden="true">
+        <div class="container works-head">
+          <div class="reveal">
+            <p class="eyebrow">Portfolio View</p>
+            <h1 id="works-title">Works Gallery</h1>
+            <p class="hero-lead">精选作品、系列视觉、过程记录与提示词档案。</p>
+          </div>
+          <div class="view-switch reveal" aria-label="切换主页视图">
+            <button class="switch-btn" type="button" data-view-target="ip">A · IP 首页</button>
+            <button class="switch-btn is-active" type="button" data-view-target="works">B · 作品集</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section works-section">
+        <div class="container">
+          <div class="filter-bar reveal" aria-label="作品分类">
+            <button class="filter-btn is-active" type="button" data-filter="all">All</button>
+            <button class="filter-btn" type="button" data-filter="ip">Original IP</button>
+            <button class="filter-btn" type="button" data-filter="fanart">Fan Art</button>
+            <button class="filter-btn" type="button" data-filter="process">Process</button>
+            <button class="filter-btn" type="button" data-filter="prompt">Prompt Archive</button>
+          </div>
+
+          <div class="gallery-grid reveal-group">
+            <article class="work-card large" data-category="ip">
+              <img src="assets/hero-haruka.jpg" alt="Haruka 角色主视觉">
+              <div>
+                <span>Original IP</span>
+                <h2>Haruka Key Visual</h2>
+                <p>主视觉海报，适合作为主页入口和系列封面。</p>
+              </div>
+            </article>
+            <article class="work-card tall" data-category="fanart">
+              <img src="assets/work-cream-birthday.jpg" alt="Cream 生日主题作品">
+              <div>
+                <span>Fan Art</span>
+                <h2>Cream Birthday</h2>
+                <p>高完成度竖版海报。</p>
+              </div>
+            </article>
+            <article class="work-card" data-category="fanart">
+              <img src="assets/work-cream-poster.jpg" alt="Cream 海报作品">
+              <div>
+                <span>Fan Art</span>
+                <h2>Celebration Poster</h2>
+              </div>
+            </article>
+            <article class="work-card wide" data-category="process">
+              <img src="assets/work-calendar.jpg" alt="四月生日日历视觉">
+              <div>
+                <span>Process</span>
+                <h2>April Calendar</h2>
+                <p>适合展示活动整理和创作过程。</p>
+              </div>
+            </article>
+            <article class="work-card" data-category="fanart">
+              <img src="assets/work-ibuki-card.jpg" alt="Ibuki 角色卡作品">
+              <div>
+                <span>Fan Art</span>
+                <h2>Ibuki Card</h2>
+              </div>
+            </article>
+            <article class="work-card" data-category="prompt">
+              <img src="assets/work-ai-edit-01.jpg" alt="AI 改图作品">
+              <div>
+                <span>Prompt Archive</span>
+                <h2>Generated Log</h2>
+              </div>
+            </article>
+            <article class="work-card tall" data-category="ip">
+              <img src="assets/work-rabbit-series.jpg" alt="Rabbit 系列作品">
+              <div>
+                <span>Original IP</span>
+                <h2>Rabbit Series</h2>
+                <p>可扩展为角色系列页。</p>
+              </div>
+            </article>
+            <article class="work-card" data-category="ip">
+              <img src="assets/haruka-portrait.jpg" alt="Haruka 竖版角色图">
+              <div>
+                <span>Original IP</span>
+                <h2>Portrait Crop</h2>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <strong>StarsAI Design</strong>
+      <span>AI artwork, original IP and visual archive.</span>
+    </div>
+  </footer>
+
+  <script src="motion.js"></script>
+</body>
+</html>

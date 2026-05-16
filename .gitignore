@@ -1,0 +1,14 @@
+# Source artwork folders are kept locally; selected web-ready files live in assets/.
+/4/
+/5/
+/AI改图/
+/创造过程/
+/动物咖啡厅/
+
+# Local browser verification artifacts.
+/preview-*.png
+/chrome-profile*/
+
+# OS/editor noise.
+.DS_Store
+Thumbs.db
