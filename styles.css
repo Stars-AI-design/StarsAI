@@ -278,34 +278,42 @@ button {
   min-height: 32px;
   display: grid;
   place-items: center;
-  border-radius: 2px;
-  color: #fff;
-  background: rgba(4, 8, 18, 0.92);
+  border: 1px solid rgba(255, 255, 255, 0.82);
+  border-radius: 999px;
+  color: var(--label-ink, #07111f);
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 8px 18px rgba(5, 9, 18, 0.18);
+  backdrop-filter: blur(8px);
   font-weight: 900;
 }
 
 .card-x {
   --tilt: -3deg;
+  --label-ink: #050912;
   background: #050912;
 }
 
 .card-xhs {
   --tilt: 1deg;
+  --label-ink: #d71444;
   background: linear-gradient(135deg, #ff426a, #f05e73 45%, #ff9189);
 }
 
 .card-douyin {
   --tilt: 3deg;
+  --label-ink: #07111f;
   background: linear-gradient(135deg, #050912, #0c1228 48%, #05d5e6);
 }
 
 .card-pixiv {
   --tilt: 2deg;
+  --label-ink: #145fb6;
   background: linear-gradient(135deg, #5b83ff, #2473cf);
 }
 
 .card-gallery {
   --tilt: 5deg;
+  --label-ink: #6d35c5;
   background: linear-gradient(135deg, #864de2, #f15aa8);
 }
 
