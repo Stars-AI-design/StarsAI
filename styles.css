@@ -201,10 +201,10 @@ button {
   display: block;
   color: var(--ink);
   font-family: "Noto Serif SC", serif;
-  font-size: clamp(3.6rem, 8vw, 7.5rem);
+  font-size: clamp(4.8rem, 10vw, 9.5rem);
   font-weight: 900;
   line-height: 0.92;
-  text-shadow: 6px 7px 0 rgba(239, 78, 145, 0.24);
+  text-shadow: 8px 9px 0 rgba(239, 78, 145, 0.24);
   transform: rotate(-3deg);
 }
 
@@ -326,8 +326,8 @@ button {
 
 .card-afdian {
   --tilt: -1deg;
-  --label-ink: #df4f72;
-  background: linear-gradient(135deg, #ff7a95, #ffe06d);
+  --label-ink: #c8234e;
+  background: linear-gradient(135deg, #ffcf32 0%, #ff7a45 46%, #ef4e91 100%);
 }
 
 .card-gallery {
@@ -1122,8 +1122,8 @@ button {
 
   .building-status {
     margin: 22px 0 0 12px;
-    font-size: clamp(3.15rem, 18vw, 5.1rem);
-    text-shadow: 4px 5px 0 rgba(239, 78, 145, 0.24);
+    font-size: clamp(4rem, 22vw, 6.4rem);
+    text-shadow: 5px 6px 0 rgba(239, 78, 145, 0.24);
   }
 
   .hero-art-card {
