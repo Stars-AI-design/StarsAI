@@ -26,10 +26,7 @@
     const nextFilter = filter || "all";
 
     filterButtons.forEach((button) => {
-      button.classList.toggle(
-        "is-active",
-        button.dataset.filter === nextFilter && !button.classList.contains("filter-icon")
-      );
+      button.classList.toggle("is-active", button.dataset.filter === nextFilter);
     });
 
     let firstVisible = null;
@@ -86,7 +83,6 @@
     const subtitle = detailPanel.querySelector(".detail-head p");
     const desc = detailPanel.querySelector(".detail-desc");
     const meta = detailPanel.querySelectorAll(".detail-meta dd");
-    const detailLink = detailPanel.querySelector(".detail-btn");
 
     if (thumb) {
       thumb.src = data.image || "";
@@ -101,7 +97,6 @@
     if (meta[1]) meta[1].textContent = data.model || "";
     if (meta[2]) meta[2].textContent = data.tool || "";
     if (meta[3]) meta[3].textContent = data.date || "";
-    if (detailLink) detailLink.href = data.image || "#";
 
     setTags(data.tags || "");
   }

@@ -261,17 +261,6 @@ button {
   transform: rotate(var(--tilt, -2deg));
 }
 
-.poster-visual {
-  position: absolute;
-  inset: 0;
-  z-index: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center top;
-  transform: scale(1.02);
-}
-
 .poster-link::before,
 .poster-link::after {
   content: "";
@@ -281,18 +270,14 @@ button {
 
 .poster-link::before {
   inset: 0;
-  z-index: 1;
   background:
-    linear-gradient(90deg, rgba(5, 9, 18, 0.1), transparent 48%),
-    linear-gradient(180deg, transparent 44%, rgba(5, 9, 18, 0.48)),
-    linear-gradient(135deg, rgba(255,255,255,0.18), transparent 35%),
+    linear-gradient(135deg, rgba(255,255,255,0.2), transparent 35%),
     radial-gradient(circle at 10% 15%, rgba(255,255,255,0.9) 0 2px, transparent 3px);
 }
 
 .poster-link::after {
   right: -18px;
   bottom: -20px;
-  z-index: 2;
   width: 92px;
   height: 92px;
   border: 1px solid rgba(255, 255, 255, 0.38);
@@ -300,23 +285,9 @@ button {
 }
 
 .poster-symbol {
-  position: absolute;
-  top: 14px;
-  left: 14px;
-  z-index: 3;
-  max-width: calc(100% - 28px);
-  min-width: 42px;
-  min-height: 42px;
-  display: grid;
-  place-items: center;
-  padding: 0 10px;
-  border: 1px solid rgba(255, 255, 255, 0.78);
-  border-radius: 999px;
-  color: #fff;
-  background: rgba(5, 9, 18, 0.68);
-  box-shadow: 0 8px 18px rgba(5, 9, 18, 0.22);
-  backdrop-filter: blur(8px);
-  font-size: clamp(1.15rem, 2.3vw, 1.8rem);
+  position: relative;
+  z-index: 1;
+  font-size: clamp(2.3rem, 4.8vw, 4rem);
   font-weight: 900;
   line-height: 1;
   text-align: center;
@@ -324,7 +295,7 @@ button {
 
 .poster-link strong {
   position: absolute;
-  z-index: 4;
+  z-index: 2;
   left: 28px;
   right: 28px;
   bottom: 11px;
@@ -1229,12 +1200,7 @@ button {
   }
 
   .poster-symbol {
-    top: 8px;
-    left: 8px;
-    min-width: 30px;
-    min-height: 30px;
-    padding: 0 7px;
-    font-size: 0.95rem;
+    font-size: 2rem;
   }
 
   .poster-link strong {
