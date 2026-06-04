@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>StarsAI Design | 角色设计</title>
+  <meta name="description" content="StarsAI Design 角色设计页，展示狐狐 Cream 与兔兔 Ice 的角色视觉、设定关键词与代表作品。">
+  <meta name="theme-color" content="#fbfaf7">
+  <meta property="og:title" content="StarsAI Design 角色设计">
+  <meta property="og:description" content="Character design archive for 狐狐 Cream and 兔兔 Ice.">
+  <meta property="og:image" content="assets/work-cream-poster.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700;800;900&family=Noto+Serif+SC:wght@700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="characters-page">
+  <header class="home-header character-header" id="top">
+    <a class="logo-lockup" href="index.html" aria-label="StarsAI Design 首页">
+      <span class="spark-logo" aria-hidden="true"></span>
+      <span>StarsAI<br>Design</span>
+    </a>
+
+    <button class="nav-toggle ink" type="button" aria-label="打开导航" aria-expanded="false">
+      <span></span>
+    </button>
+
+    <nav class="home-nav" aria-label="角色设计页导航">
+      <a href="index.html">主页</a>
+      <a class="is-active" href="characters.html">角色设计</a>
+      <a href="works.html">作品</a>
+    </nav>
+  </header>
+
+  <main class="character-shell" aria-labelledby="character-title">
+    <section class="character-intro">
+      <p>Character Design</p>
+      <h1 id="character-title">角色设计</h1>
+      <div class="character-avatar-nav" aria-label="角色选择">
+        <button class="character-avatar is-active" type="button" data-character-target="cream" aria-label="查看狐狐 Cream">
+          <img src="assets/work-cream-poster.jpg" alt="">
+          <span>狐狐 Cream</span>
+        </button>
+        <button class="character-avatar" type="button" data-character-target="ice" aria-label="查看兔兔 Ice">
+          <img src="assets/rabbit-children-day-hero.png" alt="">
+          <span>兔兔 Ice</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="character-carousel" aria-label="角色设计轮播">
+      <article class="character-slide cream" data-character="cream">
+        <div class="character-poster">
+          <img src="assets/work-cream-poster.jpg" alt="狐狐 Cream 角色主视觉">
+        </div>
+        <div class="character-copy-panel">
+          <p class="character-kicker">Fox Character</p>
+          <h2>狐狐 Cream</h2>
+          <p class="character-desc">柔软、明亮、带一点甜点工坊气息的狐系角色。适合用于温暖日常、花束主题和社交平台竖版视觉。</p>
+          <dl class="character-meta">
+            <div><dt>气质</dt><dd>甜感、轻盈、亲近</dd></div>
+            <div><dt>色彩</dt><dd>奶油粉、花瓣白、暖金</dd></div>
+          </dl>
+          <div class="character-keywords" aria-label="狐狐 Cream 视觉关键词">
+            <span>狐耳</span>
+            <span>花束</span>
+            <span>奶油色</span>
+            <span>柔光</span>
+          </div>
+          <div class="character-works" aria-label="狐狐 Cream 代表作品">
+            <a class="character-work-card" href="assets/work-cream-poster.jpg" target="_blank" rel="noreferrer">
+              <img src="assets/work-cream-poster.jpg" alt="">
+              <span>春日甜点工坊</span>
+            </a>
+            <a class="character-work-card" href="assets/cream-character-cutout.png" target="_blank" rel="noreferrer">
+              <img src="assets/cream-character-cutout.png" alt="">
+              <span>角色透明抠图</span>
+            </a>
+            <a class="character-work-card" href="assets/work-cream-birthday.jpg" target="_blank" rel="noreferrer">
+              <img src="assets/work-cream-birthday.jpg" alt="">
+              <span>生日主题海报</span>
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <article class="character-slide ice" data-character="ice">
+        <div class="character-poster">
+          <img src="assets/rabbit-children-day-hero.png" alt="兔兔 Ice 角色主视觉">
+        </div>
+        <div class="character-copy-panel">
+          <p class="character-kicker">Rabbit Character</p>
+          <h2>兔兔 Ice</h2>
+          <p class="character-desc">清透、轻快、带蓝白空气感的兔系角色。适合用于季节主题、清爽封面和系列角色展示。</p>
+          <dl class="character-meta">
+            <div><dt>气质</dt><dd>清新、活泼、干净</dd></div>
+            <div><dt>色彩</dt><dd>冰蓝、雪白、浅粉</dd></div>
+          </dl>
+          <div class="character-keywords" aria-label="兔兔 Ice 视觉关键词">
+            <span>兔耳</span>
+            <span>蓝白</span>
+            <span>节日感</span>
+            <span>清透</span>
+          </div>
+          <div class="character-works" aria-label="兔兔 Ice 代表作品">
+            <a class="character-work-card" href="assets/rabbit-children-day-hero.png" target="_blank" rel="noreferrer">
+              <img src="assets/rabbit-children-day-hero.png" alt="">
+              <span>儿童节主视觉</span>
+            </a>
+            <a class="character-work-card" href="assets/work-rabbit-series.jpg" target="_blank" rel="noreferrer">
+              <img src="assets/work-rabbit-series.jpg" alt="">
+              <span>兔兔系列设定图</span>
+            </a>
+            <a class="character-work-card" href="assets/social-pixiv-rabbit-q.png" target="_blank" rel="noreferrer">
+              <img src="assets/social-pixiv-rabbit-q.png" alt="">
+              <span>社交头像视觉</span>
+            </a>
+          </div>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="home-footer character-footer">
+    <strong>StarsAI Design</strong>
+    <span>AI 角色视觉、角色设计与图像创作档案。v1.2.0</span>
+  </footer>
+
+  <script src="motion.js"></script>
+</body>
+</html>
