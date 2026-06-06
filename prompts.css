@@ -25,6 +25,7 @@
 }
 
 .prompt-workspace {
+  --prompt-panel-height: clamp(720px, calc(100vh - 240px), 1100px);
   display: grid;
   grid-template-columns: 240px minmax(560px, 1fr) 420px;
   gap: 18px;
@@ -452,7 +453,7 @@
 .prompt-list-panel {
   display: flex;
   flex-direction: column;
-  height: clamp(720px, calc(100vh - 240px), 1100px);
+  height: var(--prompt-panel-height);
   overflow: hidden;
 }
 
@@ -692,7 +693,8 @@
   position: sticky;
   top: 24px;
   align-self: start;
-  max-height: calc(100vh - clamp(64px, 5vw, 92px));
+  height: var(--prompt-panel-height);
+  max-height: var(--prompt-panel-height);
   overflow: auto;
   padding: 16px;
 }
@@ -921,6 +923,7 @@
     grid-column: 1 / -1;
     position: relative;
     top: auto;
+    height: auto;
     max-height: none;
   }
 
