@@ -450,6 +450,9 @@
 }
 
 .prompt-list-panel {
+  display: flex;
+  flex-direction: column;
+  height: clamp(720px, calc(100vh - 240px), 1100px);
   overflow: hidden;
 }
 
@@ -525,7 +528,9 @@
 }
 
 .prompt-list {
-  max-height: clamp(640px, calc(100vh - 260px), 1040px);
+  flex: 1;
+  min-height: 0;
+  max-height: none;
   overflow: auto;
   padding: 10px;
 }
@@ -903,6 +908,15 @@
     grid-template-columns: 210px minmax(300px, 1fr);
   }
 
+  .prompt-list-panel {
+    height: auto;
+  }
+
+  .prompt-list {
+    flex: none;
+    max-height: 620px;
+  }
+
   .prompt-detail-panel {
     grid-column: 1 / -1;
     position: relative;
@@ -967,6 +981,7 @@
   }
 
   .prompt-list {
+    flex: none;
     max-height: 440px;
   }
 
