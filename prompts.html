@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>StarsAI Design | Prompt 资料库</title>
+  <meta name="description" content="StarsAI Design 的公开 Prompt 分栏资料库，展示公开字段、受限处理预览和复制入口。">
+  <meta name="theme-color" content="#060914">
+  <meta property="og:title" content="StarsAI Design Prompt Archive">
+  <meta property="og:description" content="Public prompt archive with reviewed previews and copyable safe segments.">
+  <meta property="og:image" content="assets/concept-gallery.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700;800;900&family=Noto+Serif+SC:wght@700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="prompts.css">
+</head>
+<body class="works-page prompt-page">
+  <main class="gallery-shell prompt-shell" aria-labelledby="prompt-title">
+    <section class="browser-frame">
+      <nav class="gallery-nav" aria-label="Prompt 页导航">
+        <a class="gallery-brand" href="index.html">StarsAI Design</a>
+        <div class="desktop-nav">
+          <a href="works.html">作品画廊</a>
+          <a href="characters.html">角色设计</a>
+          <a class="is-active" href="prompts.html">Prompt 资料库</a>
+          <a href="index.html#social">社群</a>
+        </div>
+        <span class="round-star" aria-hidden="true">✦</span>
+      </nav>
+
+      <section class="gallery-hero prompt-hero">
+        <h1 id="prompt-title">Prompt 资料库<span>✦</span></h1>
+        <p>Danbooru tag 格式整理 · 分段检索 · 快速复用与组合</p>
+        <small>完整原文不进入公开数据；安全条目正常预览，敏感条目做受限处理。</small>
+      </section>
+
+      <section class="prompt-workspace" aria-label="Prompt 资料库">
+        <aside class="prompt-filters" aria-label="筛选">
+          <div class="prompt-search">
+            <label for="prompt-search-input">搜索</label>
+            <div class="prompt-search-row">
+              <input id="prompt-search-input" type="search" data-prompt-search placeholder="输入关键词">
+            </div>
+          </div>
+          <div class="prompt-select-block">
+            <label for="prompt-model-filter">模型</label>
+            <select id="prompt-model-filter" data-model-filter>
+              <option value="all">全部模型</option>
+            </select>
+          </div>
+          <div class="prompt-select-block">
+            <label for="prompt-field-filter">字段筛选</label>
+            <select id="prompt-field-filter" data-prompt-filter-select>
+              <option value="all">全部</option>
+              <option value="role">角色</option>
+              <option value="clothing">服装</option>
+              <option value="action">动作</option>
+              <option value="background">背景</option>
+              <option value="camera">镜头</option>
+              <option value="other">其他</option>
+            </select>
+          </div>
+          <div class="prompt-select-block">
+            <label for="prompt-sort-select">排序</label>
+            <select id="prompt-sort-select" data-prompt-sort>
+              <option value="visibility">公开优先</option>
+              <option value="id-asc">编号升序</option>
+              <option value="id-desc">编号降序</option>
+              <option value="time-desc">时间新到旧</option>
+              <option value="time-asc">时间旧到新</option>
+              <option value="restricted-first">限制优先</option>
+              <option value="title-asc">标题 A-Z</option>
+            </select>
+          </div>
+          <div class="prompt-filter-group prompt-visibility-group" aria-label="预览状态筛选">
+            <button class="is-active" type="button" data-visibility-filter="all">全部</button>
+            <button type="button" data-visibility-filter="public">公开</button>
+            <button type="button" data-visibility-filter="swimwear-restricted">泳装限制</button>
+            <button type="button" data-visibility-filter="nsfw-restricted">NSFW限制</button>
+          </div>
+          <div class="prompt-source-note">
+            <strong data-prompt-count>0 / 0</strong>
+            <span>公开记录</span>
+          </div>
+        </aside>
+
+        <section class="prompt-list-panel" aria-label="Prompt 列表">
+          <div class="prompt-list-head">
+            <div class="prompt-list-controls">
+              <div class="prompt-view-toggle" aria-label="浏览方式">
+                <button class="is-active" type="button" data-view-mode="list">列表</button>
+                <button type="button" data-view-mode="portrait">竖图卡</button>
+                <button type="button" data-view-mode="landscape">横图卡</button>
+              </div>
+            </div>
+          </div>
+          <div class="prompt-list" data-prompt-list></div>
+        </section>
+
+        <aside class="prompt-detail-panel" data-prompt-detail aria-live="polite">
+          <p class="prompt-empty">正在加载公开 prompt 数据。</p>
+        </aside>
+      </section>
+    </section>
+
+    <nav class="mobile-tabbar" aria-label="移动端导航">
+      <a href="index.html">⌂<span>首页</span></a>
+      <a href="works.html">✦<span>作品</span></a>
+      <a class="is-active" href="prompts.html">▤<span>Prompt</span></a>
+      <a href="characters.html">♥<span>角色</span></a>
+    </nav>
+  </main>
+
+  <script src="motion.js"></script>
+  <script src="data/prompts-public.js"></script>
+  <script src="prompts.js"></script>
+</body>
+</html>

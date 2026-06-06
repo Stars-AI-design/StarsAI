@@ -1,0 +1,2423 @@
+window.PROMPT_ARCHIVE_DATA = {
+  "source": "private-local-workbook",
+  "model": "SDXL miaomiao15b",
+  "count": 92,
+  "imagePolicy": "prompt-classified-webp-thumbnails",
+  "copyPolicy": "public-segments-only",
+  "prompts": [
+    {
+      "id": "prompt-001",
+      "title": "Prompt 001",
+      "time": "2025-04-16 21:47:30",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "1girl, monkey tail, blonde hair, erune, animal ears, detached sleeves, tail, red eyes, short hair, leotard, ahoge, fur trim",
+        "clothing": "detached sleeves, leotard, fur trim",
+        "action": "solo, barefoot, toes, feet, blush",
+        "background": "",
+        "camera": "",
+        "other": "andira (granblue fantasy), monkey ears, breasts, small breasts, looking at viewer, detached leggings, white background, holding, staff, standing on one leg, bare shoulders, [[REDACTED]], standing, open mouth, thighs, leg up"
+      },
+      "restrictedSegments": [
+        "other"
+      ],
+      "imageRestricted": true,
+      "restrictionType": "nsfw",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-001-landscape.webp",
+        "portrait": "assets/prompts/prompt-001-portrait.webp"
+      },
+      "visibility": "nsfw-restricted",
+      "notes": "NSFW 内容使用高模糊预览；仅敏感片段以黑块占位处理。"
+    },
+    {
+      "id": "prompt-002",
+      "title": "Prompt 002",
+      "time": "2025-04-16 21:48:15",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "1girl, animal ears, gold eyes, shirt, white hair, tail, white tail, long hair, animal ear fluff, white shirt, thigh strap, [[REDACTED]] shirt, fox ears, fox tail, long sleeves, collarbone, hair between eyes, open shirt, (red hair:0.8)",
+        "clothing": "shirt, white shirt, thigh strap, [[REDACTED]] shirt, long sleeves, collarbone, open shirt",
+        "action": "solo, sitting, barefoot",
+        "background": "",
+        "camera": "",
+        "other": "breasts, white ears, looking at viewer, navel, kneeling, small breasts, one shoulder, fox girl, closed mouth, bottomless, expressionless, white background, no bra, thighs, from above, convenient censoring"
+      },
+      "restrictedSegments": [
+        "role",
+        "clothing"
+      ],
+      "imageRestricted": true,
+      "restrictionType": "nsfw",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-002-landscape.webp",
+        "portrait": "assets/prompts/prompt-002-portrait.webp"
+      },
+      "visibility": "nsfw-restricted",
+      "notes": "NSFW 内容使用高模糊预览；仅敏感片段以黑块占位处理。"
+    },
+    {
+      "id": "prompt-003",
+      "title": "Prompt 003",
+      "time": "2025-04-16 21:49:00",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "1girl, hood, grey hair, hoodie, earrings, jewelry, short hair, braid, long sleeves, hood down, grey eyes, blue hoodie",
+        "clothing": "hood, hoodie, jewelry, long sleeves, hood down, blue hoodie",
+        "action": "solo, blush",
+        "background": "",
+        "camera": "",
+        "other": "white background, open mouth, looking at viewer, smile, hand up, cowboy shot"
+      },
+      "restrictedSegments": [],
+      "imageRestricted": false,
+      "restrictionType": "none",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-003-landscape.webp",
+        "portrait": "assets/prompts/prompt-003-portrait.webp"
+      },
+      "visibility": "public",
+      "notes": "完整原文未公开；当前缩略图为公开压缩预览。"
+    },
+    {
+      "id": "prompt-004",
+      "title": "Prompt 004",
+      "time": "2025-04-16 21:49:47",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "1girl, thighhighs, animal ears, long hair, tail, ahoge, large breasts, cat ears, white hair, cat tail, white thighhighs, hair between eyes, tail censor, no shoes, hair over breasts, hair censor, brown eyes, cat girl",
+        "clothing": "thighhighs, white thighhighs, no shoes",
+        "action": "solo, feet, blush",
+        "background": "",
+        "camera": "",
+        "other": "breasts, paw pose, licking thigh, navel, tongue, white background, tongue out, [[REDACTED]], leg up, full body, twitter username, thighs, spread legs, leg lift, looking at viewer, split, soles, head down"
+      },
+      "restrictedSegments": [
+        "other"
+      ],
+      "imageRestricted": true,
+      "restrictionType": "nsfw",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-004-landscape.webp",
+        "portrait": "assets/prompts/prompt-004-portrait.webp"
+      },
+      "visibility": "nsfw-restricted",
+      "notes": "NSFW 内容使用高模糊预览；仅敏感片段以黑块占位处理。"
+    },
+    {
+      "id": "prompt-005",
+      "title": "Prompt 005",
+      "time": "2025-04-16 21:50:37",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "1girl, straight_hair, yellow eyes, white hair, half-closed_eyes, white bikini, large breasts, cat_tail, white tail",
+        "clothing": "white bikini",
+        "action": "blush, barefoot, toes",
+        "background": "",
+        "camera": "",
+        "other": "amazing quality, paw pose, fang, looking_at_viewer, blue eye BREAK yellow eye, [[REDACTED]], cat_ears, BREAK, very aesthetic, highres, absurdres, sensitive"
+      },
+      "restrictedSegments": [
+        "other"
+      ],
+      "imageRestricted": true,
+      "restrictionType": "nsfw",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-005-landscape.webp",
+        "portrait": "assets/prompts/prompt-005-portrait.webp"
+      },
+      "visibility": "nsfw-restricted",
+      "notes": "NSFW 内容使用高模糊预览；仅敏感片段以黑块占位处理。"
+    },
+    {
+      "id": "prompt-006",
+      "title": "Prompt 006",
+      "time": "2025-04-16 21:51:25",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "1girl, eyepatch, long sleeves, medical eyepatch, sleeves past wrists, bow, blonde hair, yellow eyes, sweater, white pantyhose",
+        "clothing": "long sleeves, sleeves past wrists, bow, sweater, white pantyhose",
+        "action": "solo, toes, feet",
+        "background": "",
+        "camera": "",
+        "other": "fujita kotone, scissors, boxcutter, looking at viewer, purple background, closed mouth, nail polish, aqua nails, green nails, on stomach, upper body, pencil, floating object, book, one eye covered, polka dot, blue nails, on_side, legs_up, foot_focus"
+      },
+      "restrictedSegments": [],
+      "imageRestricted": false,
+      "restrictionType": "none",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-006-landscape.webp",
+        "portrait": "assets/prompts/prompt-006-portrait.webp"
+      },
+      "visibility": "public",
+      "notes": "完整原文未公开；当前缩略图为公开压缩预览。"
+    },
+    {
+      "id": "prompt-007",
+      "title": "Prompt 007",
+      "time": "2025-04-16 21:52:14",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "1girl, animal ear fluff, animal ears, cat ears, cat girl, fangs, jacket, large breasts, long sleeves, medium hair, official alternate costume, open jacket, purple eyes, purple hair, sleeves past wrists, hair intakes, purple jacket, skin fangs, ahoge, tail, official alternate hairstyle, hair between eyes, cat tail, collarbone",
+        "clothing": "jacket, long sleeves, official alternate costume, open jacket, sleeves past wrists, purple jacket, collarbone",
+        "action": "solo, two side up, blush",
+        "background": "two side up",
+        "camera": "",
+        "other": "nekomata okayu, nekomata okayu \\(membership\\), hololive, :3, breasts, cleavage, off shoulder, open clothes, open mouth, purple nails, smile, virtual youtuber, white background, upper body, bare shoulders, spaghetti strap, camisole, strap slip, nail polish, grey camisole, hand on own chest, looking at viewer, heart o-ring"
+      },
+      "restrictedSegments": [],
+      "imageRestricted": false,
+      "restrictionType": "none",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-007-landscape.webp",
+        "portrait": "assets/prompts/prompt-007-portrait.webp"
+      },
+      "visibility": "public",
+      "notes": "完整原文未公开；当前缩略图为公开压缩预览。"
+    },
+    {
+      "id": "prompt-008",
+      "title": "Prompt 008",
+      "time": "2025-04-16 21:53:02",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "1girl, animal ears, pink eyes, heart-shaped pupils, symbol-shaped pupils, white hair, collar, black collar, pink hair",
+        "clothing": "collar, black collar",
+        "action": "solo, blush",
+        "background": "",
+        "camera": "",
+        "other": "score_9, score_8_up, score_7_up, heart, claw pose, looking at viewer, portrait, open mouth, close-up, virtual youtuber, hands up, Negative prompt: score_4, score_3, score_2, score_1, ugly, bad hands"
+      },
+      "restrictedSegments": [],
+      "imageRestricted": false,
+      "restrictionType": "none",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-008-landscape.webp",
+        "portrait": "assets/prompts/prompt-008-portrait.webp"
+      },
+      "visibility": "public",
+      "notes": "完整原文未公开；当前缩略图为公开压缩预览。"
+    },
+    {
+      "id": "prompt-009",
+      "title": "Prompt 009",
+      "time": "2025-04-16 21:53:52",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "1girl, butterfly hair ornament, dress, flower, hair ornament, liquid hair, long sleeves, pink eyes, pink flower, short hair, white dress, white flower, white hair, detached sleeves, floating hair, crescent hair ornament, half-closed eyes, collarbone, eyelashes",
+        "clothing": "dress, flower, long sleeves, pink flower, white dress, white flower, detached sleeves, collarbone",
+        "action": "solo",
+        "background": "",
+        "camera": "",
+        "other": "original, (yoneyama mai:0.4), (mika pikazo:0.4), (rei \\(sanbonzakura\\):0.4), (quasarcake:0.4), breasts, bubble, bug, butterfly, cleavage, crescent, crystal, expressionless, framed, iridescent, leaf, looking at viewer, parted lips, water, water drop, white background, white theme, sparkle, gem, upper body, blunt bangs, pearl \\(gemstone\\), rose, pink lips, hands up, bare shoulders, medium breasts, blue butterfly"
+      },
+      "restrictedSegments": [],
+      "imageRestricted": false,
+      "restrictionType": "none",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-009-landscape.webp",
+        "portrait": "assets/prompts/prompt-009-portrait.webp"
+      },
+      "visibility": "public",
+      "notes": "完整原文未公开；当前缩略图为公开压缩预览。"
+    },
+    {
+      "id": "prompt-010",
+      "title": "Prompt 010",
+      "time": "2025-04-16 21:54:40",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "1girl, [[REDACTED]], halo, long hair, horns, [[REDACTED]], wings, white [[REDACTED]], thighhighs, purple eyes, garter belt, white thighhighs, white hair, [[REDACTED]] only, low wings, very long hair, demon wings, demon horns, multiple horns, no shoes, black horns, ahoge",
+        "clothing": "[[REDACTED]], [[REDACTED]], white [[REDACTED]], thighhighs, garter belt, white thighhighs, [[REDACTED]] only, no shoes",
+        "action": "solo, sitting, feet, blush",
+        "background": "",
+        "camera": "",
+        "other": "hina (blue archive), [[REDACTED]], white bra, bra, looking back, from behind, looking at viewer, back, wariza, soles, bare shoulders, [[REDACTED]], demon girl"
+      },
+      "restrictedSegments": [
+        "role",
+        "clothing",
+        "other"
+      ],
+      "imageRestricted": true,
+      "restrictionType": "nsfw",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-010-landscape.webp",
+        "portrait": "assets/prompts/prompt-010-portrait.webp"
+      },
+      "visibility": "nsfw-restricted",
+      "notes": "NSFW 内容使用高模糊预览；仅敏感片段以黑块占位处理。"
+    },
+    {
+      "id": "prompt-011",
+      "title": "Prompt 011",
+      "time": "2025-04-16 21:56:37",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "1girl, pantyhose, [[REDACTED]], [[REDACTED]], braid, no shoes, white pantyhose, hood, twin braids, [[REDACTED]] under pantyhose, long hair, animal hood, white [[REDACTED]], purple eyes, see-through legwear, cat hood, hood up, very long hair, thighband pantyhose, purple hair, blue eyes, grey hair",
+        "clothing": "pantyhose, [[REDACTED]], [[REDACTED]], no shoes, white pantyhose, hood, [[REDACTED]] under pantyhose, animal hood, white [[REDACTED]], see-through legwear, cat hood, hood up, thighband pantyhose",
+        "action": "feet, solo, toes, blush, feet up",
+        "background": "",
+        "camera": "",
+        "other": "on stomach, lying, soles, looking at viewer, on bed, legs, [[REDACTED]], indoors, window, pillow, looking back, curtains, parted bangs, closed mouth, bed sheet, from behind, bed, legs up"
+      },
+      "restrictedSegments": [
+        "role",
+        "clothing",
+        "other"
+      ],
+      "imageRestricted": true,
+      "restrictionType": "nsfw",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-011-landscape.webp",
+        "portrait": "assets/prompts/prompt-011-portrait.webp"
+      },
+      "visibility": "nsfw-restricted",
+      "notes": "NSFW 内容使用高模糊预览；仅敏感片段以黑块占位处理。"
+    },
+    {
+      "id": "prompt-012",
+      "title": "Prompt 012",
+      "time": "2025-04-16 21:57:24",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "1girl, animal ears, tail, cat ears, purple hair, cat tail, symbol-shaped pupils, long hair, purple eyes, hair bun, hair ornament, twintails, heart-shaped pupils, animal ear fluff, braid, hair between eyes, diamond-shaped pupils, cone hair bun, cat girl",
+        "clothing": "",
+        "action": "blush, barefoot, solo, feet",
+        "background": "",
+        "camera": "",
+        "other": "keqing (genshin impact), [[REDACTED]], heart, cat, looking at viewer, top-down bottom-up, kemonomimi mode, [[REDACTED]], completely [[REDACTED]], fang, closed mouth, black cat, breasts, all fours, bed sheet, fang out, diamond \\(shape\\)"
+      },
+      "restrictedSegments": [
+        "other"
+      ],
+      "imageRestricted": true,
+      "restrictionType": "nsfw",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-012-landscape.webp",
+        "portrait": "assets/prompts/prompt-012-portrait.webp"
+      },
+      "visibility": "nsfw-restricted",
+      "notes": "NSFW 内容使用高模糊预览；仅敏感片段以黑块占位处理。"
+    },
+    {
+      "id": "prompt-013",
+      "title": "Prompt 013",
+      "time": "2025-04-16 21:58:15",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "1girl, [[REDACTED]], halo, white [[REDACTED]], [[REDACTED]], mechanical halo, thighhighs, purple eyes, long hair, white thighhighs, no shoes, collarbone, grey hair, [[REDACTED]] only, white hair, bow [[REDACTED]], bow, see-through",
+        "clothing": "[[REDACTED]], white [[REDACTED]], [[REDACTED]], thighhighs, white thighhighs, no shoes, collarbone, [[REDACTED]] only, bow [[REDACTED]], bow, see-through",
+        "action": "foot focus, toes, feet, blush, solo",
+        "background": "",
+        "camera": "",
+        "other": "noa (blue archive), breasts, soles, foreshortening, bra, bathtub, white bra, navel, open bra, [[REDACTED]], closed mouth, looking at viewer, medium breasts, indoors, stomach, breasts apart, spread legs, partially submerged, unfastened, water, blunt bangs, legs, bare shoulders, wet"
+      },
+      "restrictedSegments": [
+        "role",
+        "clothing",
+        "other"
+      ],
+      "imageRestricted": true,
+      "restrictionType": "nsfw",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-013-landscape.webp",
+        "portrait": "assets/prompts/prompt-013-portrait.webp"
+      },
+      "visibility": "nsfw-restricted",
+      "notes": "NSFW 内容使用高模糊预览；仅敏感片段以黑块占位处理。"
+    },
+    {
+      "id": "prompt-014",
+      "title": "Prompt 014",
+      "time": "2025-04-16 21:59:05",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "1girl, fox tail, multiple tails, white hair, long hair, animal ears, fur trim, jingle bell, print kimono, flower, yellow eyes, large breasts, hair ornament, hair over one eye",
+        "clothing": "fur trim, jingle bell, print kimono, flower",
+        "action": "",
+        "background": "",
+        "camera": "",
+        "other": "floral print, mountainous horizon, mountain, looking at viewer, bare shoulders, kitsune, nature, upper body, on side, hand on own face"
+      },
+      "restrictedSegments": [],
+      "imageRestricted": false,
+      "restrictionType": "none",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-014-landscape.webp",
+        "portrait": "assets/prompts/prompt-014-portrait.webp"
+      },
+      "visibility": "public",
+      "notes": "完整原文未公开；当前缩略图为公开压缩预览。"
+    },
+    {
+      "id": "prompt-015",
+      "title": "Prompt 015",
+      "time": "2025-04-16 21:59:56",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "1girl, crop top shirt, see-through sleeve, narrow cuffs, belt, half-gloves",
+        "clothing": "crop top shirt, see-through sleeve, narrow cuffs, belt, half-gloves",
+        "action": "",
+        "background": "",
+        "camera": "",
+        "other": "cool girl, arm band, metal chain, lowleg, off-shoulder"
+      },
+      "restrictedSegments": [],
+      "imageRestricted": false,
+      "restrictionType": "none",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-015-landscape.webp",
+        "portrait": "assets/prompts/prompt-015-portrait.webp"
+      },
+      "visibility": "public",
+      "notes": "完整原文未公开；当前缩略图为公开压缩预览。"
+    },
+    {
+      "id": "prompt-016",
+      "title": "Prompt 016",
+      "time": "2025-04-16 22:00:47",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "1girl, haneoka school uniform, necktie, grey eyes, long hair, jacket, school uniform, grey jacket, shirt, collared shirt, white shirt, long sleeves, striped necktie, pink hair",
+        "clothing": "haneoka school uniform, necktie, jacket, school uniform, grey jacket, shirt, collared shirt, white shirt, long sleeves, striped necktie",
+        "action": "solo, feet, barefoot, foot focus, toes",
+        "background": "",
+        "camera": "",
+        "other": "kaede \\(sayappa\\), (wlop:0.907), (kase daiki:0.8638), jima, (sheya:0.9524), (ciloranko:0.907), (toosaka asagi:0.8638), (tianliang duohe fangdongye:0.8638), henreader, blazer, open hands, closed mouth, very aesthetic, highres, absurdres, sensitive"
+      },
+      "restrictedSegments": [],
+      "imageRestricted": false,
+      "restrictionType": "none",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-016-landscape.webp",
+        "portrait": "assets/prompts/prompt-016-portrait.webp"
+      },
+      "visibility": "public",
+      "notes": "完整原文未公开；当前缩略图为公开压缩预览。"
+    },
+    {
+      "id": "prompt-017",
+      "title": "Prompt 017",
+      "time": "2025-04-16 22:01:39",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "1girl, long_hair, two-tone_hair, pointy ears",
+        "clothing": "",
+        "action": "solo, BREAK",
+        "background": "",
+        "camera": "",
+        "other": ""
+      },
+      "restrictedSegments": [],
+      "imageRestricted": false,
+      "restrictionType": "none",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-017-landscape.webp",
+        "portrait": "assets/prompts/prompt-017-portrait.webp"
+      },
+      "visibility": "public",
+      "notes": "完整原文未公开；当前缩略图为公开压缩预览。"
+    },
+    {
+      "id": "prompt-018",
+      "title": "Prompt 018",
+      "time": "2025-04-16 22:02:31",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "highly detailed, 1girl, wizard_hat, [[REDACTED]], leaf_bikini, bikini, green_hair, golden eyes",
+        "clothing": "[[REDACTED]], leaf_bikini, bikini",
+        "action": "blush",
+        "background": "",
+        "camera": "",
+        "other": "(((yumenouchi chiharu))), mochizuki kei, [rei (sanbonzakura)], very aesthetic, high definition, sensitive, highres, amazing quality, absurdres, ((ff gradient)), ((limited palette)), high contrast, inverted colors, colorful, (Stunning composition), from_below, monochrome, color palette, chinese ink brush style, abstract background, broom, big_breast, broom_riding, open_mouth, leaf, cherry_blossoms"
+      },
+      "restrictedSegments": [
+        "role",
+        "clothing"
+      ],
+      "imageRestricted": true,
+      "restrictionType": "nsfw",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-018-landscape.webp",
+        "portrait": "assets/prompts/prompt-018-portrait.webp"
+      },
+      "visibility": "nsfw-restricted",
+      "notes": "NSFW 内容使用高模糊预览；仅敏感片段以黑块占位处理。"
+    },
+    {
+      "id": "prompt-019",
+      "title": "Prompt 019",
+      "time": "2025-04-16 22:03:24",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "1girl, animal ears, cat ears, tail, cat tail, black hair, swimsuit, bikini, red eyes, jacket, thigh strap, black bikini, cat girl, jewelry, orange jacket, extra ears, animal ear fluff, multicolored hair, red hair, choker, black choker, toenails, open jacket, streaked hair, long sleeves",
+        "clothing": "swimsuit, bikini, jacket, thigh strap, black bikini, jewelry, orange jacket, toenails, open jacket, long sleeves",
+        "action": "feet, barefoot, toes, solo, blush",
+        "background": "",
+        "camera": "",
+        "other": "breasts, soles, black nails, nail polish, looking at viewer, night, ring, foreshortening, closed mouth, outdoors, toenail polish, legs, cleavage, city, open clothes, [[REDACTED]], medium breasts, bare legs, night sky, building, sky, the pose"
+      },
+      "restrictedSegments": [
+        "other"
+      ],
+      "imageRestricted": true,
+      "restrictionType": "nsfw",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-019-landscape.webp",
+        "portrait": "assets/prompts/prompt-019-portrait.webp"
+      },
+      "visibility": "nsfw-restricted",
+      "notes": "NSFW 内容使用高模糊预览；仅敏感片段以黑块占位处理。"
+    },
+    {
+      "id": "prompt-020",
+      "title": "Prompt 020",
+      "time": "2025-04-16 22:04:16",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "hatsune miku, 1girl, long hair, twintails, striped clothes, bikini, swimsuit, aqua hair, very long hair, striped bikini, aqua eyes",
+        "clothing": "hatsune miku, striped clothes, bikini, swimsuit, striped bikini",
+        "action": "solo, feet, barefoot, sitting, toes, blush, foot focus",
+        "background": "",
+        "camera": "",
+        "other": "[[REDACTED]], soles, navel, open mouth, foreshortening, smile, covered [[REDACTED]], aqua toenail"
+      },
+      "restrictedSegments": [
+        "other"
+      ],
+      "imageRestricted": true,
+      "restrictionType": "nsfw",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-020-landscape.webp",
+        "portrait": "assets/prompts/prompt-020-portrait.webp"
+      },
+      "visibility": "nsfw-restricted",
+      "notes": "NSFW 内容使用高模糊预览；仅敏感片段以黑块占位处理。"
+    },
+    {
+      "id": "prompt-021",
+      "title": "Prompt 021",
+      "time": "2025-04-16 22:05:08",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "1girl, [[REDACTED]], [[REDACTED]], school uniform, serafuku, brown eyes, white [[REDACTED]], black hair, no shoes, skirt, hair ornament, long hair, pleated skirt",
+        "clothing": "[[REDACTED]], [[REDACTED]], school uniform, serafuku, white [[REDACTED]], no shoes, bag, skirt, school bag, pleated skirt",
+        "action": "solo, barefoot, feet, blush, sitting, pantyshot, two side up, foot focus, toes",
+        "background": "two side up",
+        "camera": "",
+        "other": ""
+      },
+      "restrictedSegments": [
+        "role",
+        "clothing"
+      ],
+      "imageRestricted": true,
+      "restrictionType": "nsfw",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-021-landscape.webp",
+        "portrait": "assets/prompts/prompt-021-portrait.webp"
+      },
+      "visibility": "nsfw-restricted",
+      "notes": "NSFW 内容使用高模糊预览；仅敏感片段以黑块占位处理。"
+    },
+    {
+      "id": "prompt-022",
+      "title": "Prompt 022",
+      "time": "2025-04-16 22:06:01",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "(ultra-detailed), 1girl, 1girl, multicolored hair, hair over one eye, colored inner hair, hairband, collarbone, white hairband, two-tone hair, single braid, halo, ribbon, bow hairband",
+        "clothing": "collarbone, bow hairband",
+        "action": "solo, blush",
+        "background": "",
+        "camera": "",
+        "other": "reoen, very aesthetic, kal'tsit, breasts, looking at viewer, all fours, white background, parted lips"
+      },
+      "restrictedSegments": [],
+      "imageRestricted": false,
+      "restrictionType": "none",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-022-landscape.webp",
+        "portrait": "assets/prompts/prompt-022-portrait.webp"
+      },
+      "visibility": "public",
+      "notes": "完整原文未公开；当前缩略图为公开压缩预览。"
+    },
+    {
+      "id": "prompt-023",
+      "title": "Prompt 023",
+      "time": "2025-04-16 22:06:54",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "1girl, blue eyes, blue hair, braid, shirt, multicolored hair, pink hair, black shirt, short hair, hair over one eye, colored inner hair, hairband, collarbone, white hairband, long sleeves, two-tone hair, single braid, halo, ribbon, bow hairband",
+        "clothing": "shirt, black shirt, collarbone, long sleeves, bow hairband",
+        "action": "solo, blush",
+        "background": "",
+        "camera": "",
+        "other": "arona (blue archive), downblouse, breasts, looking at viewer, small breasts, all fours, white background, parted lips"
+      },
+      "restrictedSegments": [],
+      "imageRestricted": false,
+      "restrictionType": "none",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-023-landscape.webp",
+        "portrait": "assets/prompts/prompt-023-portrait.webp"
+      },
+      "visibility": "public",
+      "notes": "完整原文未公开；当前缩略图为公开压缩预览。"
+    },
+    {
+      "id": "prompt-024",
+      "title": "Prompt 024",
+      "time": "2025-04-16 22:07:48",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "1girl, short hair, black hair, long sleeves, wide sleeves, sash, sandals",
+        "clothing": "long sleeves, wide sleeves, sash, sandals",
+        "action": "solo",
+        "background": "",
+        "camera": "",
+        "other": "white background, standing, hanfu, water, floral print, obi, feathers, two-tone background, faceless, fish, reflection, walking, upside-down, blue hanfu, print hanfu, ripples, zouri, faceless female, reflective water, different reflection, walking on liquid"
+      },
+      "restrictedSegments": [],
+      "imageRestricted": false,
+      "restrictionType": "none",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-024-landscape.webp",
+        "portrait": "assets/prompts/prompt-024-portrait.webp"
+      },
+      "visibility": "public",
+      "notes": "完整原文未公开；当前缩略图为公开压缩预览。"
+    },
+    {
+      "id": "prompt-025",
+      "title": "Prompt 025",
+      "time": "2025-04-16 22:08:42",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "gradient eyes, kroos_the_keen_glint_(arknights)",
+        "clothing": "",
+        "action": "",
+        "background": "",
+        "camera": "",
+        "other": ""
+      },
+      "restrictedSegments": [],
+      "imageRestricted": false,
+      "restrictionType": "none",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-025-landscape.webp",
+        "portrait": "assets/prompts/prompt-025-portrait.webp"
+      },
+      "visibility": "public",
+      "notes": "完整原文未公开；当前缩略图为公开压缩预览。"
+    },
+    {
+      "id": "prompt-026",
+      "title": "Prompt 026",
+      "time": "2025-04-16 22:09:36",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "1girl",
+        "clothing": "",
+        "action": "",
+        "background": "",
+        "camera": "",
+        "other": "rain, night, reflection, reflection, water surface reflection, city"
+      },
+      "restrictedSegments": [],
+      "imageRestricted": false,
+      "restrictionType": "none",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-026-landscape.webp",
+        "portrait": "assets/prompts/prompt-026-portrait.webp"
+      },
+      "visibility": "public",
+      "notes": "完整原文未公开；当前缩略图为公开压缩预览。"
+    },
+    {
+      "id": "prompt-027",
+      "title": "Prompt 027",
+      "time": "2025-04-16 22:10:30",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "1girl, eyepatch bikini, swimsuit, eyewear on head, white bikini, bikini, large breasts, jacket, brown hair, toenails, sunglasses, official alternate costume, yellow jacket, ahoge, short hair, side-tie bikini bottom, open jacket, brown eyes, tinted eyewear, yellow eyes, no shoes, pink-tinted eyewear",
+        "clothing": "eyepatch bikini, swimsuit, white bikini, bikini, jacket, toenails, official alternate costume, yellow jacket, side-tie bikini bottom, open jacket, no shoes",
+        "action": "solo, feet, toes, blush, foot focus, toes",
+        "background": "",
+        "camera": "",
+        "other": "anis (nikke), breasts, toeless legwear, navel, stirrup legwear, looking at viewer, toenail polish, open clothes, lying, stomach, nail polish, clear nail, open mouth, on back, sweat, thighs, [[REDACTED]], smile, foreshortening, soles"
+      },
+      "restrictedSegments": [
+        "other"
+      ],
+      "imageRestricted": true,
+      "restrictionType": "nsfw",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-027-landscape.webp",
+        "portrait": "assets/prompts/prompt-027-portrait.webp"
+      },
+      "visibility": "nsfw-restricted",
+      "notes": "NSFW 内容使用高模糊预览；仅敏感片段以黑块占位处理。"
+    },
+    {
+      "id": "prompt-028",
+      "title": "Prompt 028",
+      "time": "2025-04-16 22:11:24",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "1girl, red eyes, long hair, large breasts, hair over one eye, twintails, grey hair, very long hair, eyes visible through hair",
+        "clothing": "",
+        "action": "solo, sitting, blush",
+        "background": "",
+        "camera": "",
+        "other": "breasts, [[REDACTED]], towel, looking at viewer, wet, smile, onsen, [[REDACTED]], back, looking back, from behind, water, [[REDACTED]], closed mouth, [[REDACTED]] cover, outdoors, covering privates, rock, completely [[REDACTED]]"
+      },
+      "restrictedSegments": [
+        "other"
+      ],
+      "imageRestricted": true,
+      "restrictionType": "nsfw",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-028-landscape.webp",
+        "portrait": "assets/prompts/prompt-028-portrait.webp"
+      },
+      "visibility": "nsfw-restricted",
+      "notes": "NSFW 内容使用高模糊预览；仅敏感片段以黑块占位处理。"
+    },
+    {
+      "id": "prompt-029",
+      "title": "Prompt 029",
+      "time": "2025-04-16 22:12:19",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "detailed eyes",
+        "clothing": "",
+        "action": "",
+        "background": "",
+        "camera": "",
+        "other": "artist:danimaru, [artist:ask_(askzy)], artist:wanke, artist:wlop, artist:fujiyama, artisit:yuyu_(yuyuworks), artist:nixeu, artist:haneru, artist:kazutake_hazano, artist:gweda, artist:hiten_(hitenkei), atrisit:dishwasher1910, mafuyu \\(chibi21\\), flat lighting, dark character, no lighting, underexposed, no highlights, light leaks, cinematic lighting, underlighting, underexposed portrait, gloomy, real shadow"
+      },
+      "restrictedSegments": [],
+      "imageRestricted": false,
+      "restrictionType": "none",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-029-landscape.webp",
+        "portrait": "assets/prompts/prompt-029-portrait.webp"
+      },
+      "visibility": "public",
+      "notes": "完整原文未公开；当前缩略图为公开压缩预览。"
+    },
+    {
+      "id": "prompt-030",
+      "title": "Prompt 030",
+      "time": "2025-04-16 22:13:17",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "1girl, long hair, long sleeves, gloves, thighhighs, twintails, [[REDACTED]], [[REDACTED]], grey hair, earrings, alternate costume, pointy ears, fingerless gloves, black footwear, apron, black shirt, wrist cuffs, no shoes, elf, high collar, selfie, (half-closed eyes1.2), masterful details",
+        "clothing": "long sleeves, gloves, thighhighs, [[REDACTED]], [[REDACTED]], fingerless gloves, black footwear, apron, black shirt, wrist cuffs, no shoes, high collar",
+        "action": "solo, sitting, feet, (foot focus1.2), cream on the feet",
+        "background": "",
+        "camera": "",
+        "other": "breasts, cleavage, medium breasts, full body, [[REDACTED]], thighs, legs, maid, clothing cutout, soles, cleavage cutout, knees up, bridal gauntlets, single glove, enmaided, on floor, shoe dangle, reflective floor, (white silk stockings1.2), (the evil smile1.5), depth of field, (look from below1.3), cake, ice cream, ridicule, cream, sit at the table, (calf close-up1.1), sharp focus, best-quality, amazing quality, very"
+      },
+      "restrictedSegments": [
+        "role",
+        "clothing",
+        "other"
+      ],
+      "imageRestricted": true,
+      "restrictionType": "nsfw",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-030-landscape.webp",
+        "portrait": "assets/prompts/prompt-030-portrait.webp"
+      },
+      "visibility": "nsfw-restricted",
+      "notes": "NSFW 内容使用高模糊预览；仅敏感片段以黑块占位处理。"
+    },
+    {
+      "id": "prompt-031",
+      "title": "Prompt 031",
+      "time": "2025-04-16 22:14:11",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "",
+        "clothing": "",
+        "action": "",
+        "background": "",
+        "camera": "",
+        "other": "shaking lines"
+      },
+      "restrictedSegments": [],
+      "imageRestricted": false,
+      "restrictionType": "none",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-031-landscape.webp",
+        "portrait": "assets/prompts/prompt-031-portrait.webp"
+      },
+      "visibility": "public",
+      "notes": "完整原文未公开；当前缩略图为公开压缩预览。"
+    },
+    {
+      "id": "prompt-032",
+      "title": "Prompt 032",
+      "time": "2025-04-16 22:15:07",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "1girl, straight_hair, yellow eyes, white hair, toenails, cat_tail, white tail, white bikini, blue jacket, thigh_belt",
+        "clothing": "toenails, white bikini, blue jacket, thigh_belt",
+        "action": "barefoot, feet, toes, blush, sitting",
+        "background": "",
+        "camera": "",
+        "other": "soles, breasts, blue nails, toenail polish, nail polish, cat_ears, looking at viewer, beach"
+      },
+      "restrictedSegments": [],
+      "imageRestricted": true,
+      "restrictionType": "swimwear",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-032-landscape.webp",
+        "portrait": "assets/prompts/prompt-032-portrait.webp"
+      },
+      "visibility": "swimwear-restricted",
+      "notes": "泳装内容使用模糊预览；prompt 分段字段保持公开，不做黑条处理。"
+    },
+    {
+      "id": "prompt-033",
+      "title": "Prompt 033",
+      "time": "2025-04-16 22:16:02",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "1girl, youtou high school uniform, hat, blue headwear, school uniform, no shoes, red hair, pink bow, pink bowtie, blue jacket, skirt, red eyes, bow, jacket, bowtie, grey skirt, beret, shirt, cropped jacket, medium hair, collared shirt, white shirt, vest, bob cut, black bow, long sleeves, open jacket, hat bow, black vest, hat ribbon, short hair",
+        "clothing": "youtou high school uniform, school uniform, no shoes, pink bow, pink bowtie, blue jacket, skirt, bow, jacket, bowtie, grey skirt, beret, shirt, cropped jacket, collared shirt, white shirt, vest, black bow, long sleeves, open jacket, hat bow, black vest",
+        "action": "feet, barefoot, toes, solo, blush, sitting, foot focus, sitting on desk",
+        "background": "",
+        "camera": "",
+        "other": "arima kana, looking at viewer, on desk, desk, soles, smile, indoors, crossed legs, legs, curtains, inverted bob, blunt bangs, blurry, school desk, window, foreshortening, arm support, blurry background"
+      },
+      "restrictedSegments": [],
+      "imageRestricted": false,
+      "restrictionType": "none",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-033-landscape.webp",
+        "portrait": "assets/prompts/prompt-033-portrait.webp"
+      },
+      "visibility": "public",
+      "notes": "完整原文未公开；当前缩略图为公开压缩预览。"
+    },
+    {
+      "id": "prompt-034",
+      "title": "Prompt 034",
+      "time": "2025-04-16 22:16:55",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "detailed, detailed background, 1girl, white long dress, gloves, multicolored hair, long animal ears, fluffy tail",
+        "clothing": "white long dress, gloves",
+        "action": "",
+        "background": "",
+        "camera": "",
+        "other": "amazing quality, very aesthetic, absurdres, newest, volumetric lighting, holographic colors, gradient colors, shiny, amazing quality, very aesthetic, absurdres, newest, volumetric lighting"
+      },
+      "restrictedSegments": [],
+      "imageRestricted": false,
+      "restrictionType": "none",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-034-landscape.webp",
+        "portrait": "assets/prompts/prompt-034-portrait.webp"
+      },
+      "visibility": "public",
+      "notes": "完整原文未公开；当前缩略图为公开压缩预览。"
+    },
+    {
+      "id": "prompt-035",
+      "title": "Prompt 035",
+      "time": "2025-04-16 22:17:50",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "1girl, white long dress, gloves, multicolored hair, long animal ears, fluffy tail",
+        "clothing": "white long dress, gloves",
+        "action": "",
+        "background": "",
+        "camera": "",
+        "other": "close-up, portrait, dutch_angle, night city, holographic colors, gradient colors, shiny, colorful, multicolored, absurd colors, skindentation"
+      },
+      "restrictedSegments": [],
+      "imageRestricted": false,
+      "restrictionType": "none",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-035-landscape.webp",
+        "portrait": "assets/prompts/prompt-035-portrait.webp"
+      },
+      "visibility": "public",
+      "notes": "完整原文未公开；当前缩略图为公开压缩预览。"
+    },
+    {
+      "id": "prompt-036",
+      "title": "Prompt 036",
+      "time": "2025-04-16 22:18:47",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "1girl, horns, dragon horns, tail, long hair, large breasts, blue hair, japanese clothes, kimono, jewelry, dragon tail, purple eyes, pointy ears, choker, wide sleeves, sash, white kimono, long sleeves, toenails, thigh strap",
+        "clothing": "japanese clothes, kimono, jewelry, wide sleeves, sash, white kimono, long sleeves, toenails, thigh strap",
+        "action": "barefoot, feet, solo, toes, sitting, blush",
+        "background": "",
+        "camera": "",
+        "other": "breasts, dragon girl, cleavage, looking at viewer, legs, anklet, moon, full body, soles, bare legs, smile, obi, white background"
+      },
+      "restrictedSegments": [],
+      "imageRestricted": false,
+      "restrictionType": "none",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-036-landscape.webp",
+        "portrait": "assets/prompts/prompt-036-portrait.webp"
+      },
+      "visibility": "public",
+      "notes": "完整原文未公开；当前缩略图为公开压缩预览。"
+    },
+    {
+      "id": "prompt-037",
+      "title": "Prompt 037",
+      "time": "2025-04-16 22:19:44",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "1girl, thighhighs, wings, tail, hat, twintails, demon tail, swimsuit, white thighhighs, hair ornament, one-piece swimsuit, demon wings, short sleeves, school swimsuit, highleg, white headwear, pink eyes, hairclip, white shirt, brown hair, shirt, thigh strap, low wings, x hair ornament, purple eyes, black hair, wrist cuffs, medium hair",
+        "clothing": "thighhighs, swimsuit, white thighhighs, one-piece swimsuit, short sleeves, school swimsuit, highleg, white shirt, shirt, thigh strap, wrist cuffs",
+        "action": "solo, barefoot, blush, toes",
+        "background": "",
+        "camera": "",
+        "other": "holding, syringe, single thighhigh, full body, looking at viewer, skindentation, covered navel, nurse cap, white background, nurse, breasts, blue swinmsuit, bandaid on leg, open mouth, holding syringe, hand up, standing, smile, shadow, small breasts, thighs, demon girl, tongue, fang"
+      },
+      "restrictedSegments": [],
+      "imageRestricted": true,
+      "restrictionType": "swimwear",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-037-landscape.webp",
+        "portrait": "assets/prompts/prompt-037-portrait.webp"
+      },
+      "visibility": "swimwear-restricted",
+      "notes": "泳装内容使用模糊预览；prompt 分段字段保持公开，不做黑条处理。"
+    },
+    {
+      "id": "prompt-038",
+      "title": "Prompt 038",
+      "time": "2025-04-16 22:20:41",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "1girl, pink hair, pink eyes, kimono, japanese clothes, cat ears, animal ear fluff, pink tail, hair ornament, long hair, hair ribbon, sash, flower, hair flower, long sleeves, blue kimono, holding sandals, undressed sandals",
+        "clothing": "kimono, japanese clothes, sash, flower, hair flower, long sleeves, blue kimono, holding sandals, undressed sandals",
+        "action": "solo, blush, barefoot, two side up, sitting, toes, foot focus",
+        "background": "two side up",
+        "camera": "",
+        "other": "looking at viewer, yukata, smile, outdoors, closed mouth, obi, sweat, medium breasts, off shoulder, thighs, [[REDACTED]], foreshortening, [[REDACTED]] slip"
+      },
+      "restrictedSegments": [
+        "other"
+      ],
+      "imageRestricted": true,
+      "restrictionType": "nsfw",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-038-landscape.webp",
+        "portrait": "assets/prompts/prompt-038-portrait.webp"
+      },
+      "visibility": "nsfw-restricted",
+      "notes": "NSFW 内容使用高模糊预览；仅敏感片段以黑块占位处理。"
+    },
+    {
+      "id": "prompt-039",
+      "title": "Prompt 039",
+      "time": "2025-04-16 22:21:39",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "1girl, yellow eyes, blonde hair, twintails, large breasts, girl on top, brown hair, closed eyes",
+        "clothing": "",
+        "action": "sitting on face, sitting on person, barefoot, toes",
+        "background": "",
+        "camera": "",
+        "other": "[[REDACTED]], hetero, breasts, [[REDACTED]], looking back, large [[REDACTED]], soles, hands on breasts, covered breasts, @_@, open mouth"
+      },
+      "restrictedSegments": [
+        "other"
+      ],
+      "imageRestricted": true,
+      "restrictionType": "nsfw",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-039-landscape.webp",
+        "portrait": "assets/prompts/prompt-039-portrait.webp"
+      },
+      "visibility": "nsfw-restricted",
+      "notes": "NSFW 内容使用高模糊预览；仅敏感片段以黑块占位处理。"
+    },
+    {
+      "id": "prompt-040",
+      "title": "Prompt 040",
+      "time": "2025-04-16 22:22:36",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "1girl, toenails",
+        "clothing": "toenails",
+        "action": "feet, foot focus, barefoot, solo",
+        "background": "",
+        "camera": "",
+        "other": "close-up, toenail polish, nail polish, blurry background, white nails, blurry, indoors, bed sheet, bed, on bed"
+      },
+      "restrictedSegments": [],
+      "imageRestricted": false,
+      "restrictionType": "none",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-040-landscape.webp",
+        "portrait": "assets/prompts/prompt-040-portrait.webp"
+      },
+      "visibility": "public",
+      "notes": "完整原文未公开；当前缩略图为公开压缩预览。"
+    },
+    {
+      "id": "prompt-041",
+      "title": "Prompt 041",
+      "time": "2025-04-16 22:23:34",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "1girl, animal ears, tail, cat ears, cat tail, heart-shaped pupils, long hair, symbol-shaped pupils, white hair, large breasts, yellow eyes, cat girl, animal ear fluff, hair between eyes, extra ears, crossed bangs",
+        "clothing": "",
+        "action": "solo, blush, barefoot, toes, feet",
+        "background": "",
+        "camera": "",
+        "other": "breasts, [[REDACTED]], top-down bottom-up, heart, looking at viewer, [[REDACTED]], completely [[REDACTED]], open mouth, all fours, fang, smile, indoors"
+      },
+      "restrictedSegments": [
+        "other"
+      ],
+      "imageRestricted": true,
+      "restrictionType": "nsfw",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-041-landscape.webp",
+        "portrait": "assets/prompts/prompt-041-portrait.webp"
+      },
+      "visibility": "nsfw-restricted",
+      "notes": "NSFW 内容使用高模糊预览；仅敏感片段以黑块占位处理。"
+    },
+    {
+      "id": "prompt-042",
+      "title": "Prompt 042",
+      "time": "2025-04-16 22:24:32",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "iridescent jacket, iridescent leotard, white pantyhose, rainbow background, silver hair",
+        "clothing": "iridescent jacket, iridescent leotard, white pantyhose, rainbow background",
+        "action": "sitting",
+        "background": "",
+        "camera": "",
+        "other": "taut clothes, shiny clothes, holographic clothing, neon palette, noa_(blue_archive), looking at viewer, gradient background, watercolor background, legs folded, knees up, silver theme"
+      },
+      "restrictedSegments": [],
+      "imageRestricted": false,
+      "restrictionType": "none",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-042-landscape.webp",
+        "portrait": "assets/prompts/prompt-042-portrait.webp"
+      },
+      "visibility": "public",
+      "notes": "完整原文未公开；当前缩略图为公开压缩预览。"
+    },
+    {
+      "id": "prompt-043",
+      "title": "Prompt 043",
+      "time": "2025-04-16 22:25:31",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "1girl, long hair, blue eyes, shirt, blonde hair, dress, bow, jewelry, very long hair, twintails, white shirt, flower, short sleeves, pantyhose, frills, hairband, horns, collared shirt, puffy sleeves, bowtie, striped clothes, red bow, puffy short sleeves, no shoes, white flower, pink dress, white pantyhose, pink skirt, asymmetrical legwear, vertical-striped clothes, red hairband, center frills, suspender skirt, fake h",
+        "clothing": "shirt, dress, bow, jewelry, white shirt, flower, short sleeves, pantyhose, frills, collared shirt, puffy sleeves, bowtie, striped clothes, red bow, puffy short sleeves, no shoes, white flower, pink dress, white pantyhose, pink skirt, asymmetrical legwear, vertical-striped clothes, center frills, suspender skirt, striped pantyhose",
+        "action": "solo, sitting, feet, toes, blush stickers",
+        "background": "",
+        "camera": "",
+        "other": "tianliang duohe fangdongye, black theme, looking at viewer, smile, closed mouth, sidelocks, indoors, plant, brooch, potted plant"
+      },
+      "restrictedSegments": [],
+      "imageRestricted": false,
+      "restrictionType": "none",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-043-landscape.webp",
+        "portrait": "assets/prompts/prompt-043-portrait.webp"
+      },
+      "visibility": "public",
+      "notes": "完整原文未公开；当前缩略图为公开压缩预览。"
+    },
+    {
+      "id": "prompt-044",
+      "title": "Prompt 044",
+      "time": "2025-04-16 22:26:30",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "long hair, multiple girls, black hair, long sleeves, dress, thighhighs, animal ears, collarbone, tail, white hair, ahoge, frills, sleeveless, black thighhighs, cat ears, white dress, black dress, white thighhighs, black eyes, halo, collar, animal ear fluff, cat tail, sleeveless dress, bell, no shoes, cat girl, extra ears, white ribbon, skin fang, neck bell, vibrator, tail raised, animal collar, red collar, black tail",
+        "clothing": "long sleeves, dress, thighhighs, collarbone, frills, sleeveless, black thighhighs, white dress, black dress, white thighhighs, collar, sleeveless dress, bell, no shoes, neck bell, vibrator, animal collar, red collar, egg vibrator, remote control vibrator, vibrator in thighhighs",
+        "action": "blush, sitting",
+        "background": "",
+        "camera": "",
+        "other": "breasts, looking at viewer, smile, closed mouth, 2girls, bare shoulders, sidelocks, small breasts, indoors, fang, [[REDACTED]], pillow, bare arms, window, kneeling, [[REDACTED]] juice, bed, on bed, bed sheet, animal, wariza, mouth hold, cat, curtains, all fours, [[REDACTED]] toy, strap slip, [[REDACTED]], leash, spaghetti strap, [[REDACTED]] wrapper, black cat, picture frame, [[REDACTED]] in mouth, painting \\(object\\"
+      },
+      "restrictedSegments": [
+        "other"
+      ],
+      "imageRestricted": true,
+      "restrictionType": "nsfw",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-044-landscape.webp",
+        "portrait": "assets/prompts/prompt-044-portrait.webp"
+      },
+      "visibility": "nsfw-restricted",
+      "notes": "NSFW 内容使用高模糊预览；仅敏感片段以黑块占位处理。"
+    },
+    {
+      "id": "prompt-045",
+      "title": "Prompt 045",
+      "time": "2025-04-16 22:27:29",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "1girl, animal ears, tail, fox ears, green eyes, fox tail, toenails, brown hair, hair between eyes, long hair, multiple tails, animal ear fluff",
+        "clothing": "toenails",
+        "action": "barefoot, feet, toes, solo, blush, sitting, foot focus, foot focus",
+        "background": "",
+        "camera": "",
+        "other": "soles, fox girl, nail polish, bare shoulders, toenail polish, open mouth, legs, foreshortening, bare legs, fang, smile, hand on own face, knees up, looking at viewer, pink nails, off shoulder, spread legs, john kafka, close-up"
+      },
+      "restrictedSegments": [],
+      "imageRestricted": false,
+      "restrictionType": "none",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-045-landscape.webp",
+        "portrait": "assets/prompts/prompt-045-portrait.webp"
+      },
+      "visibility": "public",
+      "notes": "完整原文未公开；当前缩略图为公开压缩预览。"
+    },
+    {
+      "id": "prompt-046",
+      "title": "Prompt 046",
+      "time": "2025-04-16 22:28:29",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "1girl, long hair, very long hair, [[REDACTED]], grey hair, pointy ears, see-through silhouette, holding [[REDACTED]], laurel crown",
+        "clothing": "[[REDACTED]], see-through silhouette, holding [[REDACTED]], laurel crown",
+        "action": "solo, feet out of frame",
+        "background": "",
+        "camera": "",
+        "other": "muelsyse \\(arknights\\), breasts, white background, holding, standing, [[REDACTED]], bra, arm up, shadow, curtains, black bra, backlighting, holding clothes, silhouette, unworn bra, curtain grab, holding bra"
+      },
+      "restrictedSegments": [
+        "role",
+        "clothing",
+        "other"
+      ],
+      "imageRestricted": true,
+      "restrictionType": "nsfw",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-046-landscape.webp",
+        "portrait": "assets/prompts/prompt-046-portrait.webp"
+      },
+      "visibility": "nsfw-restricted",
+      "notes": "NSFW 内容使用高模糊预览；仅敏感片段以黑块占位处理。"
+    },
+    {
+      "id": "prompt-047",
+      "title": "Prompt 047",
+      "time": "2025-04-16 22:29:29",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "upskirt, pink sexy [[REDACTED]], lowleg [[REDACTED]], frilled [[REDACTED]], 1girl, skirt, pink eyes, hair between eyes, pink hair, long hair, twintails, low twintails, collarbone, black headwear, halo, pink halo, long sleeves, head wings, black wings, feathered wings, low wings, black wings, feathered wings, low wings, beret",
+        "clothing": "upskirt, pink sexy [[REDACTED]], lowleg [[REDACTED]], frilled [[REDACTED]], skirt, collarbone, long sleeves, beret",
+        "action": "solo",
+        "background": "",
+        "camera": "",
+        "other": "mtu virus, multiple views, cowboy shot, zettai ryouiki, close-up, [[REDACTED]], (seductive smile:0.5), [[REDACTED]] focus, [[REDACTED]] focus, lace trim, polka dot pattern, bare legs, koharu \\(blue archive\\), small breasts, sola7764, jima, rhasta, [:(aki99:0.6), :12]"
+      },
+      "restrictedSegments": [
+        "role",
+        "clothing",
+        "other"
+      ],
+      "imageRestricted": true,
+      "restrictionType": "nsfw",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-047-landscape.webp",
+        "portrait": "assets/prompts/prompt-047-portrait.webp"
+      },
+      "visibility": "nsfw-restricted",
+      "notes": "NSFW 内容使用高模糊预览；仅敏感片段以黑块占位处理。"
+    },
+    {
+      "id": "prompt-048",
+      "title": "Prompt 048",
+      "time": "2025-04-16 22:30:27",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "1girl, rabbit ears, jewelry, long hair, animal ears, large breasts, highleg leotard, hair bun, ear piercing, official alternate costume, playboy bunny, wrist cuffs, necktie between breasts, highleg, necktie, leotard, collarbone, earrings, [[REDACTED]]. She has white bunny ears on her head and a black ribbon around her neck. The girl is posing for the viewer with one leg lifted up showcasing her bare thighs and [[REDA",
+        "clothing": "jewelry, highleg leotard, official alternate costume, wrist cuffs, necktie between breasts, highleg, necktie, leotard, collarbone, [[REDACTED]]. She has white bunny ears on her head and a black ribbon around her neck. The girl is posing for the viewer with one leg lifted up showcasing her bare thighs and [[REDACTED]]. R. The girl is shown in a black and white monochrome pictu with her long gray hair in twin tails and",
+        "action": "solo, sitting, blush",
+        "background": "",
+        "camera": "",
+        "other": "looking at viewer, greyscale, bare shoulders, hand up, cleavage, [[REDACTED]], sweat, between breasts, white background, open mouth, thighs, [[REDACTED]] cutout, bare legs, piercing, navel, navel cutout, sidelocks, clothing cutout, breast, monochrome"
+      },
+      "restrictedSegments": [
+        "role",
+        "clothing",
+        "other"
+      ],
+      "imageRestricted": true,
+      "restrictionType": "nsfw",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-048-landscape.webp",
+        "portrait": "assets/prompts/prompt-048-portrait.webp"
+      },
+      "visibility": "nsfw-restricted",
+      "notes": "NSFW 内容使用高模糊预览；仅敏感片段以黑块占位处理。"
+    },
+    {
+      "id": "prompt-049",
+      "title": "Prompt 049",
+      "time": "2025-04-16 22:31:24",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "1girl, pantyhose, no shoes, black pantyhose, lolita dress, frilled dress, frills, dress, sleeveless, ribbon, pink hair, purple eyes, pink eyes",
+        "clothing": "pantyhose, no shoes, black pantyhose, lolita dress, frilled dress, frills, dress, sleeveless",
+        "action": "solo, blush, feet",
+        "background": "",
+        "camera": "",
+        "other": "looking at viewer, on side, lying, legs, gothic lolita, on bed, bangs, [[REDACTED]], breasts, smile, closed mouth, full body, bed, blurry, pillow, clothes lift, bare shoulders, elysia \\(herrscher of human:ego\\) \\(honkai impact\\), ([[REDACTED]]:1.6), small breasts"
+      },
+      "restrictedSegments": [
+        "other"
+      ],
+      "imageRestricted": true,
+      "restrictionType": "nsfw",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-049-landscape.webp",
+        "portrait": "assets/prompts/prompt-049-portrait.webp"
+      },
+      "visibility": "nsfw-restricted",
+      "notes": "NSFW 内容使用高模糊预览；仅敏感片段以黑块占位处理。"
+    },
+    {
+      "id": "prompt-050",
+      "title": "Prompt 050",
+      "time": "2025-04-16 22:32:22",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "blonde hair, barefoot sandals \\(jewelry\\), dress, side slit, laurel crown, white dress, gold choker, necklace, gold earrings, blue eyes, no shoes, hair ornament, earrings, jewelry, long hair",
+        "clothing": "barefoot sandals \\(jewelry\\), dress, side slit, laurel crown, white dress, no shoes, jewelry",
+        "action": "solo, (feet focus:1.2), barefoot sandals \\(jewelry\\), feet, toes, sitting, barefoot",
+        "background": "",
+        "camera": "",
+        "other": "1 girl, close-up, amazing quality, soles, long legs, gold trim, pillar, outstretched leg, legs, skull, anklet, column lineup, gold chain, gold diadem, purple robe, ancient greek clothes, bracelet, bare shoulders, chiton, chain, robe, arm support, throne room, closed mouth, looking at viewer, statue, column, greco-roman clothes, sidelocks, knee up, gold anklet, tiara, dorsiflexion"
+      },
+      "restrictedSegments": [],
+      "imageRestricted": false,
+      "restrictionType": "none",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-050-landscape.webp",
+        "portrait": "assets/prompts/prompt-050-portrait.webp"
+      },
+      "visibility": "public",
+      "notes": "完整原文未公开；当前缩略图为公开压缩预览。"
+    },
+    {
+      "id": "prompt-051",
+      "title": "Prompt 051",
+      "time": "2025-04-16 22:33:19",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "1girl, virgin killer sweater, purple eyes, sweater, thighhighs, ahoge, red sweater, long hair, no shoes, large breasts, scrunchie, grey hair, twintails, hair scrunchie, sweater dress, backless outfit, low twintails",
+        "clothing": "virgin killer sweater, sweater, thighhighs, red sweater, no shoes, scrunchie, hair scrunchie, sweater dress, backless outfit",
+        "action": "solo, feet, toes, foot focus, blush",
+        "background": "",
+        "camera": "",
+        "other": "yukine chris, soles, breasts, lying, meme attire, christmas tree, on stomach, toeless legwear, looking at viewer, stirrup legwear, [[REDACTED]], black legwear, couch, indoors, open mouth, looking back, christmas, foreshortening, from behind, [[REDACTED]], bare shoulders, smile, on couch"
+      },
+      "restrictedSegments": [
+        "other"
+      ],
+      "imageRestricted": true,
+      "restrictionType": "nsfw",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-051-landscape.webp",
+        "portrait": "assets/prompts/prompt-051-portrait.webp"
+      },
+      "visibility": "nsfw-restricted",
+      "notes": "NSFW 内容使用高模糊预览；仅敏感片段以黑块占位处理。"
+    },
+    {
+      "id": "prompt-052",
+      "title": "Prompt 052",
+      "time": "2025-04-16 22:34:17",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "rabbit ears, fake animal ears, yellow eyes, brown eyes, glasses, round eyewear, brown hair, long hair, twintails, large breasts, black bikini, blue hoodie, cropped hoodie, side-tie bikini bottom, halo, yellow halo, long sleeves, animal ears, bikini, hood down, swimsuit, hood, hoodie, A young woman with long brown hair and cat ears on her head. she is wearing a blue jacket over a black bra and matching [[REDACTED]]. t",
+        "clothing": "black bikini, blue hoodie, cropped hoodie, side-tie bikini bottom, long sleeves, bikini, hood down, swimsuit, hood, hoodie, A young woman with long brown hair and cat ears on her head. she is wearing a blue jacket over a black bra and matching [[REDACTED]]. the woman has a serious expression on her face and is looking directly at the camera. the background is white and there are bubbles floating around her",
+        "action": "solo, blush",
+        "background": "",
+        "camera": "",
+        "other": "moe \\(blue archive\\), border, dynamic angle, dutch angle, fisheye, navel, stomach, white border, [[REDACTED]], open mouth, breasts, looking at viewer, sweatdrop, standing, arms up"
+      },
+      "restrictedSegments": [
+        "role",
+        "clothing",
+        "other"
+      ],
+      "imageRestricted": true,
+      "restrictionType": "nsfw",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-052-landscape.webp",
+        "portrait": "assets/prompts/prompt-052-portrait.webp"
+      },
+      "visibility": "nsfw-restricted",
+      "notes": "NSFW 内容使用高模糊预览；仅敏感片段以黑块占位处理。"
+    },
+    {
+      "id": "prompt-053",
+      "title": "Prompt 053",
+      "time": "2025-04-16 22:35:16",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "1girl, animal ears, tail, bikini, purple eyes, swimsuit, large breasts, cow tail, bell, purple hair, choker, earrings, jewelry, black choker, print bikini, animal ear fluff, horns, neck bell, tail raised, cow print bikini, collarbone, front-tie bikini top, extra ears, long hair, string bikini, alternate costume, jingle bell",
+        "clothing": "bikini, swimsuit, bell, jewelry, print bikini, neck bell, cow print bikini, collarbone, front-tie bikini top, string bikini, jingle bell",
+        "action": "solo, blush",
+        "background": "",
+        "camera": "",
+        "other": "raiden shogun, breasts, animal print, mole, cow ears, milk bottle, looking at viewer, between breasts, mole under eye, bottle, upper body, cow print, cow girl, milk, closed mouth, kemonomimi mode, bare shoulders, mole on breast, cleavage, front-tie top, o-ring, bare arms, blunt bangs, breasts grab"
+      },
+      "restrictedSegments": [],
+      "imageRestricted": true,
+      "restrictionType": "swimwear",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-053-landscape.webp",
+        "portrait": "assets/prompts/prompt-053-portrait.webp"
+      },
+      "visibility": "swimwear-restricted",
+      "notes": "泳装内容使用模糊预览；prompt 分段字段保持公开，不做黑条处理。"
+    },
+    {
+      "id": "prompt-054",
+      "title": "Prompt 054",
+      "time": "2025-04-16 22:36:15",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "1girl, tail, animal ears, swimsuit, grey hair, large breasts, cat tail, bikini, grey eyes, cat ears, long hair, crossed bangs, earrings, jewelry, blue bikini, collarbone, animal ear fluff, hair between eyes, cat girl, ponytail",
+        "clothing": "swimsuit, bikini, jewelry, blue bikini, collarbone",
+        "action": "solo, barefoot, blush, toes, tiptoes, feet",
+        "background": "",
+        "camera": "",
+        "other": "bronya zaychik (silverwing: n-ex), breasts, paw pose, looking at viewer, squatting, cleavage, bare shoulders, bare arms, open mouth, kemonomimi mode, thighs, spread legs, fang, parted lips, hand up, black background"
+      },
+      "restrictedSegments": [],
+      "imageRestricted": true,
+      "restrictionType": "swimwear",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-054-landscape.webp",
+        "portrait": "assets/prompts/prompt-054-portrait.webp"
+      },
+      "visibility": "swimwear-restricted",
+      "notes": "泳装内容使用模糊预览；prompt 分段字段保持公开，不做黑条处理。"
+    },
+    {
+      "id": "prompt-055",
+      "title": "Prompt 055",
+      "time": "2025-04-16 22:37:15",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "hina \\(pajamas\\) \\(blue archive\\) \\(cosplay\\), halo, yellow coat, coat on shoulders, kisaki \\(kindergarten uniform\\) \\(blue archive\\) \\(cosplay\\), halo, pink shirt",
+        "clothing": "hina \\(pajamas\\) \\(blue archive\\) \\(cosplay\\), yellow coat, coat on shoulders, kisaki \\(kindergarten uniform\\) \\(blue archive\\) \\(cosplay\\), pink shirt",
+        "action": "",
+        "background": "",
+        "camera": "",
+        "other": "2girls, costume switch, flat chest, jyt, chiaroscuro, BREAK"
+      },
+      "restrictedSegments": [],
+      "imageRestricted": false,
+      "restrictionType": "none",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-055-landscape.webp",
+        "portrait": "assets/prompts/prompt-055-portrait.webp"
+      },
+      "visibility": "public",
+      "notes": "完整原文未公开；当前缩略图为公开压缩预览。"
+    },
+    {
+      "id": "prompt-056",
+      "title": "Prompt 056",
+      "time": "2025-04-16 22:38:15",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "1girl, glowing eyes",
+        "clothing": "",
+        "action": "",
+        "background": "",
+        "camera": "",
+        "other": "narmaya \\(granblue fantasy\\), petite, fantasy background, holding katana, glowing butterfly, pose, fighting stance, purple outline, light particles, battoujutsu stance, chiaroscuro, light particles, radiant reflections, dynamic pose"
+      },
+      "restrictedSegments": [],
+      "imageRestricted": false,
+      "restrictionType": "none",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-056-landscape.webp",
+        "portrait": "assets/prompts/prompt-056-portrait.webp"
+      },
+      "visibility": "public",
+      "notes": "完整原文未公开；当前缩略图为公开压缩预览。"
+    },
+    {
+      "id": "prompt-057",
+      "title": "Prompt 057",
+      "time": "2025-04-16 22:39:16",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "japanese clothes, silver hair, alternate costume, alternate hairstyle, sleeves past fingers",
+        "clothing": "japanese clothes, sleeves past fingers",
+        "action": "",
+        "background": "",
+        "camera": "",
+        "other": "noa_(blue_archive), looking at viewer, ink background, white theme, seductive smile, come hither, holding uchiwa, legs up, shiroshouzoku, obijime, triangular headpiece, ghost, floating, sensei \\(blue archive\\), chibi sensei \\(blue archive\\), speech bubble, pov"
+      },
+      "restrictedSegments": [],
+      "imageRestricted": false,
+      "restrictionType": "none",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-057-landscape.webp",
+        "portrait": "assets/prompts/prompt-057-portrait.webp"
+      },
+      "visibility": "public",
+      "notes": "完整原文未公开；当前缩略图为公开压缩预览。"
+    },
+    {
+      "id": "prompt-058",
+      "title": "Prompt 058",
+      "time": "2025-04-16 22:40:17",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "1girl, long hair, brown hair, long sleeves, dress, hat, very long hair, [[REDACTED]], purple eyes, [[REDACTED]], flower, pantyhose, frills, wide sleeves, black footwear, black dress, high heels, black pantyhose, black headwear, witch hat, half-closed eyes, upskirt, unworn headwear, [[REDACTED]] under pantyhose, thighband pantyhose, purple flower, unworn hat, hat flower, purple [[REDACTED]]",
+        "clothing": "long sleeves, dress, [[REDACTED]], [[REDACTED]], flower, pantyhose, frills, wide sleeves, black footwear, black dress, high heels, black pantyhose, upskirt, [[REDACTED]] under pantyhose, thighband pantyhose, purple flower, hat flower, purple [[REDACTED]]",
+        "action": "solo, blush",
+        "background": "",
+        "camera": "",
+        "other": "breasts, looking at viewer, smile, closed mouth, medium breasts, standing, full body, [[REDACTED]], from behind, legs, book, bent over, upside-down, purple nails, kneepits, witch, looking through legs, ankle grab"
+      },
+      "restrictedSegments": [
+        "role",
+        "clothing",
+        "other"
+      ],
+      "imageRestricted": true,
+      "restrictionType": "nsfw",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-058-landscape.webp",
+        "portrait": "assets/prompts/prompt-058-portrait.webp"
+      },
+      "visibility": "nsfw-restricted",
+      "notes": "NSFW 内容使用高模糊预览；仅敏感片段以黑块占位处理。"
+    },
+    {
+      "id": "prompt-059",
+      "title": "Prompt 059",
+      "time": "2025-04-16 22:41:21",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "1girl, halo, ponytail, dark skinned female, grey sweater, [[REDACTED]] sweater, (see-through:0.6), (virgin killer sweater:1.3), large breasts",
+        "clothing": "grey sweater, [[REDACTED]] sweater, (see-through:0.6), (virgin killer sweater:1.3)",
+        "action": "solo",
+        "background": "",
+        "camera": "",
+        "other": "karin \\(bunny\\) \\(blue archive\\), hourglass body, perky breasts, arm tattoo, taut clothes, [[REDACTED]], from side, from behind, breasts, [[REDACTED]] focus, looking back, :3, leaning forward, taut clothes, butt_crack, depth of field, back, blurry background, standing, meme_attire, city, club entrance, night, wet floor, light reflections, holding phone, modeling pose, focus on female, photo background, amazing qualit"
+      },
+      "restrictedSegments": [
+        "role",
+        "clothing",
+        "other"
+      ],
+      "imageRestricted": true,
+      "restrictionType": "nsfw",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-059-landscape.webp",
+        "portrait": "assets/prompts/prompt-059-portrait.webp"
+      },
+      "visibility": "nsfw-restricted",
+      "notes": "NSFW 内容使用高模糊预览；仅敏感片段以黑块占位处理。"
+    },
+    {
+      "id": "prompt-060",
+      "title": "Prompt 060",
+      "time": "2025-04-16 22:42:24",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "1girl, jewelry, mouth veil, shawl, short hair, veil",
+        "clothing": "jewelry, mouth veil, shawl, veil",
+        "action": "blush, solo",
+        "background": "",
+        "camera": "",
+        "other": "djeeta \\(granblue fantasy\\), iatromantis \\(granblue fantasy\\), granblue fantasy, bracelet, breasts, circlet, cleavage, covered [[REDACTED]], foreshortening, from above, no bra, revealing clothes, [[REDACTED]], smile, sola7764, jima, rhasta, [:(aki99:0.6), :12]"
+      },
+      "restrictedSegments": [
+        "other"
+      ],
+      "imageRestricted": true,
+      "restrictionType": "nsfw",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-060-landscape.webp",
+        "portrait": "assets/prompts/prompt-060-portrait.webp"
+      },
+      "visibility": "nsfw-restricted",
+      "notes": "NSFW 内容使用高模糊预览；仅敏感片段以黑块占位处理。"
+    },
+    {
+      "id": "prompt-061",
+      "title": "Prompt 061",
+      "time": "2025-04-16 22:43:27",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "1girl, absurdly long hair, animal ear fluff, animal ears, fox ears, fox tail, grey hair, hair between eyes, high ponytail, japanese clothes, kimono, long hair, long sleeves, one eye closed, ponytail, red eyes, sash, tail, very long hair, white kimono, wide sleeves",
+        "clothing": "japanese clothes, kimono, long sleeves, sash, white kimono, wide sleeves",
+        "action": "barefoot, blush, sitting, solo",
+        "background": "",
+        "camera": "",
+        "other": "original, animal, blurry, blurry background, chibi, closed mouth, cup, day, depth of field, fox, fox girl, obi, outdoors, plate, sleepy, veranda, yunomi, wooden floor, table, indoors, on floor, ;\\(, holding cup, holding, seiza"
+      },
+      "restrictedSegments": [],
+      "imageRestricted": false,
+      "restrictionType": "none",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-061-landscape.webp",
+        "portrait": "assets/prompts/prompt-061-portrait.webp"
+      },
+      "visibility": "public",
+      "notes": "完整原文未公开；当前缩略图为公开压缩预览。"
+    },
+    {
+      "id": "prompt-062",
+      "title": "Prompt 062",
+      "time": "2025-04-16 22:44:31",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "1girl surrow by flower, long hair, blue eyes, dress, jewelry, very long hair, collarbone, grey hair, multicolored hair, short sleeves, hair_flower, earrings, alternate costume, choker, necklace, Basket",
+        "clothing": "",
+        "action": "",
+        "background": "",
+        "camera": "",
+        "other": ""
+      },
+      "restrictedSegments": [],
+      "imageRestricted": false,
+      "restrictionType": "none",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-062-landscape.webp",
+        "portrait": "assets/prompts/prompt-062-portrait.webp"
+      },
+      "visibility": "public",
+      "notes": "完整原文未公开；当前缩略图为公开压缩预览。"
+    },
+    {
+      "id": "prompt-063",
+      "title": "Prompt 063",
+      "time": "2025-04-16 22:45:34",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "pink hair, veil, long hair, jewelry, 1girl, earrings, see-through, grey eyes, swimsuit, bikini, highleg, green eyes",
+        "clothing": "veil, jewelry, see-through, swimsuit, bikini, highleg",
+        "action": "solo",
+        "background": "",
+        "camera": "",
+        "other": "breasts, navel, stomach, closed mouth, dancer, arms behind back, revealing clothes, bare shoulders, cowboy shot, medium breasts, gem, small breasts, bare arms, harem outfit, standing, covered [[REDACTED]], chain"
+      },
+      "restrictedSegments": [
+        "other"
+      ],
+      "imageRestricted": true,
+      "restrictionType": "nsfw",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-063-landscape.webp",
+        "portrait": "assets/prompts/prompt-063-portrait.webp"
+      },
+      "visibility": "nsfw-restricted",
+      "notes": "NSFW 内容使用高模糊预览；仅敏感片段以黑块占位处理。"
+    },
+    {
+      "id": "prompt-064",
+      "title": "Prompt 064",
+      "time": "2025-04-16 22:46:38",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "1girl, flower, veil, halo, long hair, alternate costume, pelvic curtain, red hair, purple flower, hair ornament, hair flower, detached sleeves, wavy hair, see-through, mouth veil, very long hair, hair between eyes",
+        "clothing": "flower, veil, pelvic curtain, purple flower, hair flower, detached sleeves, see-through, mouth veil",
+        "action": "solo, blush",
+        "background": "",
+        "camera": "",
+        "other": "iroha (blue archive), navel, looking at viewer, rose, stomach, bare shoulders, small breasts, breasts, o-ring, [[REDACTED]], petals, purple rose, closed mouth, cowboy shot, holding, night, smile, revealing clothes, standing, dancer, harem outfit, thighs, hands up, magic, own hands together"
+      },
+      "restrictedSegments": [
+        "other"
+      ],
+      "imageRestricted": true,
+      "restrictionType": "nsfw",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-064-landscape.webp",
+        "portrait": "assets/prompts/prompt-064-portrait.webp"
+      },
+      "visibility": "nsfw-restricted",
+      "notes": "NSFW 内容使用高模糊预览；仅敏感片段以黑块占位处理。"
+    },
+    {
+      "id": "prompt-065",
+      "title": "Prompt 065",
+      "time": "2025-04-16 22:47:41",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "1girl, earrings, jewelry, black hair, hair ornament, hood, multicolored hair, orange eyes, jacket, orange hair, short hair, hairclip, hoodie, long sleeves, x hair ornament, two-tone hair, black hoodie, [[REDACTED]] jacket, colored inner hair, hood down, open jacket, hooded jacket, heart earrings, medium hair, black jacket, collarbone",
+        "clothing": "jewelry, hood, jacket, hoodie, long sleeves, black hoodie, [[REDACTED]] jacket, hood down, open jacket, hooded jacket, black jacket, collarbone",
+        "action": "solo, blush",
+        "background": "",
+        "camera": "",
+        "other": "breasts, navel, heart, looking at viewer, hand in pocket, white background, smile, open clothes, sweat, closed mouth, virtual youtuber, medium breasts, out-of-frame censoring, drawstring, stomach, [[REDACTED]]"
+      },
+      "restrictedSegments": [
+        "role",
+        "clothing",
+        "other"
+      ],
+      "imageRestricted": true,
+      "restrictionType": "nsfw",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-065-landscape.webp",
+        "portrait": "assets/prompts/prompt-065-portrait.webp"
+      },
+      "visibility": "nsfw-restricted",
+      "notes": "NSFW 内容使用高模糊预览；仅敏感片段以黑块占位处理。"
+    },
+    {
+      "id": "prompt-066",
+      "title": "Prompt 066",
+      "time": "2025-04-16 22:48:46",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "1girl, horns, pink hair, animal ears, braid, twin braids, long hair, cow horns, hair ornament, multicolored hair, hair intakes, apron, puffy sleeves, purple eyes, ahoge, long sleeves, streaked hair, red bowtie, dress, bowtie, bow, red bow, hairband, short sleeves, aqua hair, white apron, black dress, large breasts, low twin braids, hair between eyes, white horns",
+        "clothing": "apron, puffy sleeves, long sleeves, red bowtie, dress, bowtie, bow, red bow, short sleeves, white apron, black dress",
+        "action": "solo, barefoot, toes, feet, foot focus, sitting, sitting on table",
+        "background": "",
+        "camera": "",
+        "other": "varesa, pudding, food, holding, soles, bandaid, looking at viewer, closed mouth, cow ears, presenting foot, cherry, indoors, bandaid on leg, tray, smile, cow girl, holding tray, bare legs, foot out of frame, legs, convenient leg, maid, thighs, foreshortening"
+      },
+      "restrictedSegments": [],
+      "imageRestricted": false,
+      "restrictionType": "none",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-066-landscape.webp",
+        "portrait": "assets/prompts/prompt-066-portrait.webp"
+      },
+      "visibility": "public",
+      "notes": "完整原文未公开；当前缩略图为公开压缩预览。"
+    },
+    {
+      "id": "prompt-067",
+      "title": "Prompt 067",
+      "time": "2025-04-16 22:49:50",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "1girl, playboy bunny, animal ears, black hair, rabbit ears, hair bun, leotard, black leotard, strapless, detached collar, twintails, strapless leotard, fake animal ears, double bun, halo, butterfly hair ornament, rabbit tail, wrist cuffs, grey eyes, hair ornament, black footwear, long hair, bowtie, tail, bow, highleg, highleg leotard, black bowtie, striped coat, high heels, fake tail, black bow, jacket, black jacket,",
+        "clothing": "leotard, black leotard, strapless, detached collar, strapless leotard, wrist cuffs, black footwear, bowtie, bow, highleg, highleg leotard, black bowtie, striped coat, high heels, black bow, jacket, black jacket, coat, vertical-striped jacket",
+        "action": "solo",
+        "background": "",
+        "camera": "",
+        "other": "kisaki (blue archive), small breasts, breasts, covered navel, bare legs, coin, falling coin, looking at viewer, kneeling, thighs, dragon print, bare shoulders, table, full body, on table, casino"
+      },
+      "restrictedSegments": [],
+      "imageRestricted": false,
+      "restrictionType": "none",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-067-landscape.webp",
+        "portrait": "assets/prompts/prompt-067-portrait.webp"
+      },
+      "visibility": "public",
+      "notes": "完整原文未公开；当前缩略图为公开压缩预览。"
+    },
+    {
+      "id": "prompt-068",
+      "title": "Prompt 068",
+      "time": "2025-04-16 22:50:55",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "low twintails, rabbit ears, elbow gloves, strap [[REDACTED]], bow [[REDACTED]], ultra detailed",
+        "clothing": "elbow gloves, strap [[REDACTED]], bow [[REDACTED]]",
+        "action": "",
+        "background": "",
+        "camera": "",
+        "other": "le malin \\(azur lane\\), straight-on, small breasts, close up, [[REDACTED]], white harness, o-ring, +_+, [[REDACTED]], wide hips, thick thighs, white pve latex, white o-ring, [[REDACTED]], hanging harness, hanging breasts, transparent color PVC clothing, transparent color vinyl clothing, prismatic, holographic, chromatic aberration, fashion illustration, girl with harajuku fashion, 8k, amazing quality, very aesthetic,"
+      },
+      "restrictedSegments": [
+        "role",
+        "clothing",
+        "other"
+      ],
+      "imageRestricted": true,
+      "restrictionType": "nsfw",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-068-landscape.webp",
+        "portrait": "assets/prompts/prompt-068-portrait.webp"
+      },
+      "visibility": "nsfw-restricted",
+      "notes": "NSFW 内容使用高模糊预览；仅敏感片段以黑块占位处理。"
+    },
+    {
+      "id": "prompt-069",
+      "title": "Prompt 069",
+      "time": "2025-04-16 22:52:00",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "1girl, black hair, very long hair, eyes visible through hair, hairpin, gorgeous hair accessories, layered kimono-inspired outfit, dress, long skirt, overcoat, see-through, elbow rest, elbow on armrest, detailed toes",
+        "clothing": "layered kimono-inspired outfit, dress, long skirt, overcoat, see-through, elbow rest, elbow on armrest",
+        "action": "solo, foot focus, toes, detailed toes",
+        "background": "",
+        "camera": "",
+        "other": "mature female, milf, queen, bangs pinned back, the throne of luxury, orient, bored, slouching, head tilt, hanfu, hagoromo, cleavage, hagoromo, hand on own face, foot, foot reaching viewer, foot show, close-up foot, soles, reclining, leg up, from below, foot out of frame, thick thighs, perspective, fisheye, bare legs"
+      },
+      "restrictedSegments": [],
+      "imageRestricted": false,
+      "restrictionType": "none",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-069-landscape.webp",
+        "portrait": "assets/prompts/prompt-069-portrait.webp"
+      },
+      "visibility": "public",
+      "notes": "完整原文未公开；当前缩略图为公开压缩预览。"
+    },
+    {
+      "id": "prompt-070",
+      "title": "Prompt 070",
+      "time": "2025-04-16 22:53:05",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "1girl, purple hair, long hair, purple eyes, large breasts, detached sleeves, toenails, very long hair, wide sleeves",
+        "clothing": "detached sleeves, toenails, wide sleeves",
+        "action": "solo, barefoot, toes, feet",
+        "background": "",
+        "camera": "",
+        "other": "fern (sousou no frieren), breasts, staff, full body, revealing clothes, navel, holding staff, holding, purple nails, blunt bangs, breast curtains, looking at viewer, dark background, standing, nail polish, mage staff, toenail polish, chiaroscuro, visual impact, glowing sparkles, volumetric lighting, dynamic pose"
+      },
+      "restrictedSegments": [],
+      "imageRestricted": false,
+      "restrictionType": "none",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-070-landscape.webp",
+        "portrait": "assets/prompts/prompt-070-portrait.webp"
+      },
+      "visibility": "public",
+      "notes": "完整原文未公开；当前缩略图为公开压缩预览。"
+    },
+    {
+      "id": "prompt-071",
+      "title": "Prompt 071",
+      "time": "2025-04-16 22:54:11",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "1girl, animal ears, cat ears, large breasts, tail, swimsuit, cat tail, bikini, blue eyes, long hair, yellow eyes, white bikini, white hair, cat girl, animal ear fluff, string bikini, front-tie bikini top, extra ears, collarbone, hair between eyes, white tail",
+        "clothing": "swimsuit, bikini, white bikini, string bikini, front-tie bikini top, collarbone",
+        "action": "solo, barefoot, blush, toes",
+        "background": "",
+        "camera": "",
+        "other": "breasts, heterochromia, claw pose, looking at viewer, cleavage, front-tie top, fang, thighs, bare shoulders, on side, bare legs, bare arms, open mouth, smile, halterneck"
+      },
+      "restrictedSegments": [],
+      "imageRestricted": true,
+      "restrictionType": "swimwear",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-071-landscape.webp",
+        "portrait": "assets/prompts/prompt-071-portrait.webp"
+      },
+      "visibility": "swimwear-restricted",
+      "notes": "泳装内容使用模糊预览；prompt 分段字段保持公开，不做黑条处理。"
+    },
+    {
+      "id": "prompt-072",
+      "title": "Prompt 072",
+      "time": "2025-04-16 22:55:18",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "1girl, long hair, long sleeves, gloves, thighhighs, twintails, [[REDACTED]], [[REDACTED]], grey hair, earrings, alternate costume, pointy ears, fingerless gloves, black footwear, apron, black shirt, wrist cuffs, no shoes, elf, high collar, selfie, (half-closed eyes:1.2), masterful details",
+        "clothing": "long sleeves, gloves, thighhighs, [[REDACTED]], [[REDACTED]], fingerless gloves, black footwear, apron, black shirt, wrist cuffs, no shoes, high collar",
+        "action": "solo, sitting, feet, (foot focus:1.2), cream on the feet",
+        "background": "",
+        "camera": "",
+        "other": "keqing_(genshin_impact, breasts, cleavage, medium breasts, full body, [[REDACTED]], thighs, legs, maid, clothing cutout, soles, cleavage cutout, knees up, bridal gauntlets, single glove, enmaided, on floor, shoe dangle, reflective floor, (white silk stockings:1.2), (the evil smile:1.5), depth of field, (look from below:1.3), cake, ice cream, ridicule, cream, sit at the table, (calf close-up:1.1), sharp focus, best-qu"
+      },
+      "restrictedSegments": [
+        "role",
+        "clothing",
+        "other"
+      ],
+      "imageRestricted": true,
+      "restrictionType": "nsfw",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-072-landscape.webp",
+        "portrait": "assets/prompts/prompt-072-portrait.webp"
+      },
+      "visibility": "nsfw-restricted",
+      "notes": "NSFW 内容使用高模糊预览；仅敏感片段以黑块占位处理。"
+    },
+    {
+      "id": "prompt-073",
+      "title": "Prompt 073",
+      "time": "2025-04-16 22:56:23",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "1girl, brown hair, swimsuit, bikini, purple eyes, short hair, hair ornament, thighhighs, hairclip, black bikini, micro bikini, pantyhose, no shoes, black thighhighs",
+        "clothing": "swimsuit, bikini, thighhighs, black bikini, micro bikini, pantyhose, no shoes, black thighhighs",
+        "action": "solo, sitting",
+        "background": "",
+        "camera": "",
+        "other": "higuchi madoka, breasts, white background, looking at viewer, mole under eye, [[REDACTED]], mole, medium breasts, clothes pull, legs"
+      },
+      "restrictedSegments": [
+        "other"
+      ],
+      "imageRestricted": true,
+      "restrictionType": "nsfw",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-073-landscape.webp",
+        "portrait": "assets/prompts/prompt-073-portrait.webp"
+      },
+      "visibility": "nsfw-restricted",
+      "notes": "NSFW 内容使用高模糊预览；仅敏感片段以黑块占位处理。"
+    },
+    {
+      "id": "prompt-074",
+      "title": "Prompt 074",
+      "time": "2025-04-16 22:57:29",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "[[REDACTED]] kimono, black hair, hair ribbon, one side up], BREAKshort hair, cat hair ornament, twintails, green eyes, pink hair, gradient eyes",
+        "clothing": "[[REDACTED]] kimono",
+        "action": "two side up, nose blush",
+        "background": "two side up",
+        "camera": "",
+        "other": "[[REDACTED]], 2girls, [takanashi rikka, yuri, presenting, beckoning, seductive smile, embarrassed, mesugaki, expression difference, stepping towards viewer, come hither, take your pick, (looking at viewer:1.3), very aesthetic, absurdres, lying on person, [[REDACTED]] focus, finger heart, {{rei_(sanbonzakura)}}, refeia, {morikura_en}, [fujiyama], [[kawacy]], [ogipote], momoko_(momopoco), small breasts, heavy breathing"
+      },
+      "restrictedSegments": [
+        "role",
+        "clothing",
+        "other"
+      ],
+      "imageRestricted": true,
+      "restrictionType": "nsfw",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-074-landscape.webp",
+        "portrait": "assets/prompts/prompt-074-portrait.webp"
+      },
+      "visibility": "nsfw-restricted",
+      "notes": "NSFW 内容使用高模糊预览；仅敏感片段以黑块占位处理。"
+    },
+    {
+      "id": "prompt-075",
+      "title": "Prompt 075",
+      "time": "2025-04-16 22:58:36",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "multiple girls, BREAK",
+        "clothing": "",
+        "action": "",
+        "background": "",
+        "camera": "",
+        "other": ""
+      },
+      "restrictedSegments": [],
+      "imageRestricted": false,
+      "restrictionType": "none",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-075-landscape.webp",
+        "portrait": "assets/prompts/prompt-075-portrait.webp"
+      },
+      "visibility": "public",
+      "notes": "完整原文未公开；当前缩略图为公开压缩预览。"
+    },
+    {
+      "id": "prompt-076",
+      "title": "Prompt 076",
+      "time": "2025-04-16 22:59:41",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "1girl, dress, thighhighs, ribbon, pantyhose, white_dress, see-through, no_shoes, blue_ribbon, white_pantyhose, thighband_pantyhose, see-through_legwear",
+        "clothing": "dress, thighhighs, pantyhose, white_dress, see-through, no_shoes, white_pantyhose, thighband_pantyhose, see-through_legwear",
+        "action": "solo, feet, toes",
+        "background": "",
+        "camera": "",
+        "other": "standing, official_alternate_costume, legs, wet, dutch_angle, soles, curtains, close-up, foot_focus, dripping, suggestive_fluid, lower_body"
+      },
+      "restrictedSegments": [],
+      "imageRestricted": false,
+      "restrictionType": "none",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-076-landscape.webp",
+        "portrait": "assets/prompts/prompt-076-portrait.webp"
+      },
+      "visibility": "public",
+      "notes": "完整原文未公开；当前缩略图为公开压缩预览。"
+    },
+    {
+      "id": "prompt-077",
+      "title": "Prompt 077",
+      "time": "2025-04-16 23:00:49",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "1girl, long hair, multicolored hair, braid, choker, blue eyes, pink hair, ribbon, bow, hair over one eye, single braid, colored inner hair, white hair, side braid, blue bow, very long hair",
+        "clothing": "bow, blue bow",
+        "action": "solo",
+        "background": "",
+        "camera": "",
+        "other": "breasts, small breasts, navel, upper body, armpits, stomach, looking at viewer, parted lips, absurdres, newest, very aesthetic, amazing quality, highres icon, sensitive"
+      },
+      "restrictedSegments": [],
+      "imageRestricted": false,
+      "restrictionType": "none",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-077-landscape.webp",
+        "portrait": "assets/prompts/prompt-077-portrait.webp"
+      },
+      "visibility": "public",
+      "notes": "完整原文未公开；当前缩略图为公开压缩预览。"
+    },
+    {
+      "id": "prompt-078",
+      "title": "Prompt 078",
+      "time": "2025-04-16 23:01:54",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "1girl, jewelry, wavy hair, twintails, red eyes, hair ornament, long hair, eyelashes",
+        "clothing": "jewelry",
+        "action": "solo",
+        "background": "",
+        "camera": "",
+        "other": "(jima:0.9), newest, amazing quality, very awa, sensitive, aged down, stunning composition, three quarter view, wide shot, limited palette, upper body, stylish, fashion, armor, revealing clothes, white theme, one eye covered, looking to the side, backlighting, shoulder spikes, arm at side, dated, white background, closed mouth, hand up, signature, profile, spikes, from side, expressionless, half-closed eye"
+      },
+      "restrictedSegments": [],
+      "imageRestricted": false,
+      "restrictionType": "none",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-078-landscape.webp",
+        "portrait": "assets/prompts/prompt-078-portrait.webp"
+      },
+      "visibility": "public",
+      "notes": "完整原文未公开；当前缩略图为公开压缩预览。"
+    },
+    {
+      "id": "prompt-079",
+      "title": "Prompt 079",
+      "time": "2025-04-16 23:03:02",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "toenails, dress, hair bun, double bun, halo, chinese clothes, black hair, china dress, twintails, black dress, gloves, black gloves, hair ornament, long hair, butterfly hair ornament, grey eyes, print dress, sleeveless, shoes, pelvic curtain, sleeveless dress, jacket, unworn shoes, black footwear, coat, short dress, high heels, holding shoes, braided bun, braid, upper teeth only, grey halo, striped jacket, BREAK long",
+        "clothing": "toenails, dress, chinese clothes, china dress, black dress, gloves, black gloves, print dress, sleeveless, shoes, pelvic curtain, sleeveless dress, jacket, unworn shoes, black footwear, coat, short dress, high heels, holding shoes, striped jacket, BREAK long sleeves, vertical-striped jacket, striped coat, striped clothes, vertical-striped clothes, jacket partially removed",
+        "action": "solo, barefoot, toes, feet, foot focus, sitting, blush",
+        "background": "",
+        "camera": "",
+        "other": "dragon print, toenail polish, nail polish, looking at viewer, foot out of frame, breasts, black nails, small breasts, holding, presenting foot, open mouth, white background, legs, bare legs, smile, bare shoulders, teeth, foreshortening, soles, off shoulder, dragon print, armpit carry"
+      },
+      "restrictedSegments": [],
+      "imageRestricted": false,
+      "restrictionType": "none",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-079-landscape.webp",
+        "portrait": "assets/prompts/prompt-079-portrait.webp"
+      },
+      "visibility": "public",
+      "notes": "完整原文未公开；当前缩略图为公开压缩预览。"
+    },
+    {
+      "id": "prompt-080",
+      "title": "Prompt 080",
+      "time": "2025-04-16 23:04:11",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "bikini, eyelashes, two-tone hair, sunglasses, large breasts",
+        "clothing": "bikini, hand bag",
+        "action": "solo",
+        "background": "",
+        "camera": "",
+        "other": "(soyoong jun :0.7), (akakura:0.9), (yumenouchi chiharu:0.6), newest, amazing quality, 1 girl, sensitive, fashion modelling, chromatic aberration, border, film grain, flat color, (fashion:1.2), album cover, triangle border, poster \\(medium\\), abstract art, (word art:1.2), arknights, reverse:1999, ((Dadaism)), color guide, Stunning composition, sticker \\(medium\\), user interface, fake screenshot, window \\(computing\\), "
+      },
+      "restrictedSegments": [],
+      "imageRestricted": true,
+      "restrictionType": "swimwear",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-080-landscape.webp",
+        "portrait": "assets/prompts/prompt-080-portrait.webp"
+      },
+      "visibility": "swimwear-restricted",
+      "notes": "泳装内容使用模糊预览；prompt 分段字段保持公开，不做黑条处理。"
+    },
+    {
+      "id": "prompt-081",
+      "title": "Prompt 081",
+      "time": "2025-04-16 23:05:18",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "1girl, black pantyhose, [[REDACTED]] pantyhose, bob cut, shiny skin",
+        "clothing": "black pantyhose, [[REDACTED]] pantyhose",
+        "action": "",
+        "background": "",
+        "camera": "",
+        "other": "thick thighs, platinum blonde, from below, dutch angle, fine fabric emphasis, wide shot, cyberpunk, squatting, hip focus, [[REDACTED]], backways_glance, eye-contact, looking_at_viewer"
+      },
+      "restrictedSegments": [
+        "role",
+        "clothing",
+        "other"
+      ],
+      "imageRestricted": true,
+      "restrictionType": "nsfw",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-081-landscape.webp",
+        "portrait": "assets/prompts/prompt-081-portrait.webp"
+      },
+      "visibility": "nsfw-restricted",
+      "notes": "NSFW 内容使用高模糊预览；仅敏感片段以黑块占位处理。"
+    },
+    {
+      "id": "prompt-082",
+      "title": "Prompt 082",
+      "time": "2025-04-16 23:06:26",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "1girl, highleg [[REDACTED]], shorts, open jacket, hat_with_ears, thigh strap, colorful jacket, earrings, hairclip, gradient hair, white hair, twintails, very long hair, blue eyes, large breasts",
+        "clothing": "highleg [[REDACTED]], shorts, open jacket, thigh strap, colorful jacket",
+        "action": "",
+        "background": "",
+        "camera": "",
+        "other": "amazing quality, very aesthetic, absurdres, newest, scenery, holding baseball bat, paint splatter, bare shoulders, criss-cross_halter, cleavage_cutout, facial mark, licking lips, smile, looking at viewer, thick thighs, wide_shot, close-up, dutch angle, paint splatter, abstract background, amazing quality, very aesthetic, absurdres, newest, scenery, colorful, volumetric lighting, Negative prompt: lowres, (worst qualit"
+      },
+      "restrictedSegments": [
+        "role",
+        "clothing"
+      ],
+      "imageRestricted": true,
+      "restrictionType": "nsfw",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-082-landscape.webp",
+        "portrait": "assets/prompts/prompt-082-portrait.webp"
+      },
+      "visibility": "nsfw-restricted",
+      "notes": "NSFW 内容使用高模糊预览；仅敏感片段以黑块占位处理。"
+    },
+    {
+      "id": "prompt-083",
+      "title": "Prompt 083",
+      "time": "2025-04-16 23:07:34",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "round glasses, light blue hair, right side hair intact (smooth waves), left side fragmented hair (geometric blue shards, neutral gray unisex clothing (clean-cut collar, fragmented hair strands with 8-bit digital effect",
+        "clothing": "neutral gray unisex clothing (clean-cut collar",
+        "action": "",
+        "background": "",
+        "camera": "",
+        "other": "semi-profile view, pixelated decomposition), angular pixelation pattern, transition from soft curves to rigid rectangular units, minimal texture), pure white background, sharp contrast between structural fragmentation and organic shapes, digital glitch (static interference lines overlay), technological transformation theme, precise linework defining broken/intact boundaries, flat shading style, right shoulder forward"
+      },
+      "restrictedSegments": [],
+      "imageRestricted": false,
+      "restrictionType": "none",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-083-landscape.webp",
+        "portrait": "assets/prompts/prompt-083-portrait.webp"
+      },
+      "visibility": "public",
+      "notes": "完整原文未公开；当前缩略图为公开压缩预览。"
+    },
+    {
+      "id": "prompt-084",
+      "title": "Prompt 084",
+      "time": "2025-04-16 23:08:42",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "closed eyes, colored shoe soles, fingerless gloves, gloves, high heels, invisible chair, multiple girls, stiletto heels, white gloves",
+        "clothing": "colored shoe soles, fingerless gloves, gloves, high heels, stiletto heels, white gloves",
+        "action": "sitting",
+        "background": "",
+        "camera": "",
+        "other": "shenhe \\(genshin impact\\), yelan \\(genshin impact\\), 2girls, [[REDACTED]], back cutout, [[REDACTED]], clothing cutout, from behind, grabbing another's [[REDACTED]], groping, implied kiss, lifting another's clothes, looking at viewer, sparkle, spread legs, standing, white background, yuri"
+      },
+      "restrictedSegments": [
+        "other"
+      ],
+      "imageRestricted": true,
+      "restrictionType": "nsfw",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-084-landscape.webp",
+        "portrait": "assets/prompts/prompt-084-portrait.webp"
+      },
+      "visibility": "nsfw-restricted",
+      "notes": "NSFW 内容使用高模糊预览；仅敏感片段以黑块占位处理。"
+    },
+    {
+      "id": "prompt-085",
+      "title": "Prompt 085",
+      "time": "2025-04-16 23:09:51",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "alternate costume, animal ears, black hair, blonde hair, blue eyes, blue halo, bow, bowtie, dark-skinned female, dark skin, detached collar, elbow gloves, eyes visible through hair, fake animal ears, fake tail, fishnet pantyhose, fishnets, gloves, hair over one eye, hair ribbon, hairband, half-closed eyes, halo, large breasts, long bangs, long hair, multiple girls, pantyhose, ponytail, purple halo, rabbit ears, rabbi",
+        "clothing": "",
+        "action": "",
+        "background": "",
+        "camera": "",
+        "other": ""
+      },
+      "restrictedSegments": [],
+      "imageRestricted": true,
+      "restrictionType": "swimwear",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-085-landscape.webp",
+        "portrait": "assets/prompts/prompt-085-portrait.webp"
+      },
+      "visibility": "swimwear-restricted",
+      "notes": "泳装内容使用模糊预览；prompt 分段字段保持公开，不做黑条处理。"
+    },
+    {
+      "id": "prompt-086",
+      "title": "Prompt 086",
+      "time": "2025-04-16 23:11:00",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "abstract. 1girl, animal ears, blue eyes, blue hair, pantyhose, multicolored hair, no shoes, white pantyhose, cat ears, long hair, animal ear fluff, streaked hair, white hair, ahoge, collarbone, hair between eyes, cat girl, two-tone hair, tail, symbol-shaped pupils",
+        "clothing": "pantyhose, no shoes, white pantyhose, collarbone",
+        "action": "feet, solo, foot focus, toes, blush, feet up",
+        "background": "",
+        "camera": "",
+        "other": "watercolor style, (soft blending:1.2), fluid colors, dreamy washes, delicate textures, organic shapes, atmospheric depth, bubble, limited color, particles, Flowing clothes, soles, tongue out, bathtub, tongue, looking at viewer, foreshortening, bathing, wet, bangs, bath, bubble, cat, :p, window, water, [[REDACTED]], indoors, rubber duck, foot up, plant, partially submerged, breasts, smile, absurdres, newest, very aest"
+      },
+      "restrictedSegments": [
+        "other"
+      ],
+      "imageRestricted": true,
+      "restrictionType": "nsfw",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-086-landscape.webp",
+        "portrait": "assets/prompts/prompt-086-portrait.webp"
+      },
+      "visibility": "nsfw-restricted",
+      "notes": "NSFW 内容使用高模糊预览；仅敏感片段以黑块占位处理。"
+    },
+    {
+      "id": "prompt-087",
+      "title": "Prompt 087",
+      "time": "2025-04-16 23:12:09",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "1girl, long_hair, hat, dress, bow, jewelry, green_eyes, yellow_eyes, flower, short_sleeves, red_hair, hairband, earrings, frills, puffy_sleeves, necklace, orange_hair, black_dress, red_bow, black_headwear, witch_hat, red_flower, hat_flower, pearl_necklace",
+        "clothing": "dress, bow, jewelry, flower, short_sleeves, frills, puffy_sleeves, black_dress, red_bow, red_flower, hat_flower",
+        "action": "solo",
+        "background": "",
+        "camera": "",
+        "other": "looking_at_viewer, bangs, simple_background, upper_body, parted_lips, artist_name, hand_up, nail_polish, bracelet, fingernails, rose, bird, animal, cat, ring, gem, bridal_gauntlets, freckles, beads, witch, green_nails, black_cat, animal_on_shoulder, crow, red_gemstone, green_gemstone, pearl_\\(gemstone\\)"
+      },
+      "restrictedSegments": [],
+      "imageRestricted": false,
+      "restrictionType": "none",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-087-landscape.webp",
+        "portrait": "assets/prompts/prompt-087-portrait.webp"
+      },
+      "visibility": "public",
+      "notes": "完整原文未公开；当前缩略图为公开压缩预览。"
+    },
+    {
+      "id": "prompt-088",
+      "title": "Prompt 088",
+      "time": "2025-04-16 23:13:19",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "1girl, long_hair, skirt, shirt, black_hair, thighhighs, black_footwear, long_sleeves, brown_eyes, school_uniform, white_shirt, pleated_skirt, serafuku, socks, loafers, black_thighhighs, hair_ribbon, black_skirt, sailor_collar, floating_hair, black_thighhighs, holding_hair, black_sailor_collar",
+        "clothing": "skirt, shirt, thighhighs, black_footwear, long_sleeves, school_uniform, white_shirt, pleated_skirt, serafuku, socks, loafers, black_thighhighs, black_skirt, sailor_collar, bag, black_thighhighs, black_sailor_collar",
+        "action": "solo",
+        "background": "",
+        "camera": "",
+        "other": "looking_at_viewer, bangs, open_mouth, branch, holding, closed_mouth, outdoors, sky, day, depth_of_field, looking_back, road_sign, from_behind, cherry_blossoms, wind_lift, from_below, from_behind, leg_up, sole, cowboy_shot, pink_theme, blurry_background, wind, stairs, city, can, railing, skyscraper, holding_can"
+      },
+      "restrictedSegments": [],
+      "imageRestricted": false,
+      "restrictionType": "none",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-088-landscape.webp",
+        "portrait": "assets/prompts/prompt-088-portrait.webp"
+      },
+      "visibility": "public",
+      "notes": "完整原文未公开；当前缩略图为公开压缩预览。"
+    },
+    {
+      "id": "prompt-089",
+      "title": "Prompt 089",
+      "time": "2025-04-16 23:14:30",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "1girl, long_hair, shirt, hair_ornament, red_eyes, long_sleeves, ribbon, twintails, jewelry, very_long_hair, jacket, tail, hair_ribbon, white_shirt, pink_hair, flower, white_hair, grey_hair, multicolored_hair, earrings, horns, shorts, hood, pink_eyes, two-tone_hair, open_jacket, streaked_hair, black_jacket, sleeves_past_wrists, grey_eyes, short_shorts, black_ribbon, hoodie, low_twintails, black_shorts, red_flower, hoo",
+        "clothing": "shirt, long_sleeves, jewelry, jacket, white_shirt, flower, shorts, hood, open_jacket, black_jacket, sleeves_past_wrists, short_shorts, hoodie, black_shorts, red_flower, hooded_jacket, hood_up, black_hoodie",
+        "action": "solo, blush, sitting",
+        "background": "",
+        "camera": "",
+        "other": "looking_at_viewer, smile, open_mouth, bangs, :d, heart, midriff, twitter_username, nail_polish, english_text, sparkle, thigh_strap, rose, heterochromia, upper_teeth_only, stuffed_toy, stuffed_animal, box, black_nails, gift, happy_birthday, red_rose, valentine, gift_box, happy_valentine"
+      },
+      "restrictedSegments": [],
+      "imageRestricted": false,
+      "restrictionType": "none",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-089-landscape.webp",
+        "portrait": "assets/prompts/prompt-089-portrait.webp"
+      },
+      "visibility": "public",
+      "notes": "完整原文未公开；当前缩略图为公开压缩预览。"
+    },
+    {
+      "id": "prompt-090",
+      "title": "Prompt 090",
+      "time": "2025-04-16 23:15:39",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "1girl, grey hair, red eyes, large breasts, white playboy bunny, rabbit ears, bow tie, rabbit tail, white cuffs",
+        "clothing": "bow tie, white cuffs",
+        "action": "sitting",
+        "background": "",
+        "camera": "",
+        "other": "fishnet tights, high-heel, carrot between breasts, hands on breasts, smile, open mouth, wariza, looking at viewer"
+      },
+      "restrictedSegments": [],
+      "imageRestricted": false,
+      "restrictionType": "none",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-090-landscape.webp",
+        "portrait": "assets/prompts/prompt-090-portrait.webp"
+      },
+      "visibility": "public",
+      "notes": "完整原文未公开；当前缩略图为公开压缩预览。"
+    },
+    {
+      "id": "prompt-091",
+      "title": "Prompt 091",
+      "time": "2025-04-16 23:16:49",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "1girl, large breasts",
+        "clothing": "",
+        "action": "solo",
+        "background": "",
+        "camera": "",
+        "other": "clothed [[REDACTED]], female [[REDACTED]], female pov, from above, lower body, [[REDACTED]], pov, sweat, thighs, spread legs, heart, grabbing own breast, leg up, trembling, twitching, motion lines, [[REDACTED]] around one leg, mudrock \\(arknights\\, cleavage, black [[REDACTED]], bed sheet"
+      },
+      "restrictedSegments": [
+        "other"
+      ],
+      "imageRestricted": true,
+      "restrictionType": "nsfw",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-091-landscape.webp",
+        "portrait": "assets/prompts/prompt-091-portrait.webp"
+      },
+      "visibility": "nsfw-restricted",
+      "notes": "NSFW 内容使用高模糊预览；仅敏感片段以黑块占位处理。"
+    },
+    {
+      "id": "prompt-092",
+      "title": "Prompt 092",
+      "time": "2025-04-16 23:17:59",
+      "status": "完成",
+      "model": "SDXL miaomiao15b",
+      "segments": {
+        "role": "[black dress, white apron, black ribbon, maid apron, maid headdress, hair ribbon], ribbon",
+        "clothing": "[black dress, white apron, maid apron, maid headdress",
+        "action": "",
+        "background": "",
+        "camera": "",
+        "other": "blueberry, cake, cake slice, candle, candlestand, cream, cream on face, cupcake, duster, enmaided, fireplace, food, food on face, fruit, [finger in own mouth, leaning forward, looking back], macaron, mousse (food), pastry, plate, saucer, table, teacup, tiered tray"
+      },
+      "restrictedSegments": [],
+      "imageRestricted": false,
+      "restrictionType": "none",
+      "copyable": true,
+      "images": {
+        "landscape": "assets/prompts/prompt-092-landscape.webp",
+        "portrait": "assets/prompts/prompt-092-portrait.webp"
+      },
+      "visibility": "public",
+      "notes": "完整原文未公开；当前缩略图为公开压缩预览。"
+    }
+  ]
+};

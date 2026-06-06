@@ -4,6 +4,10 @@
 /AI改图/
 /创造过程/
 /动物咖啡厅/
+/prompt/
+/visual-options/
+__pycache__/
+*.pyc
 
 # Local browser verification artifacts.
 /preview-*.png
