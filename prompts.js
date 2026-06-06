@@ -8,6 +8,7 @@
   const statCount = document.querySelector("[data-prompt-count]");
   const visibilityButtons = Array.from(document.querySelectorAll("[data-visibility-filter]"));
   const viewButtons = Array.from(document.querySelectorAll("[data-view-mode]"));
+  const cardSizeInput = document.querySelector("[data-card-size]");
 
   if (!list || !detail) {
     return;
@@ -22,6 +23,7 @@
   let viewMode = "list";
   let sortMode = "visibility";
   let query = "";
+  let cardSize = readStoredCardSize() || 180;
   const enhancedSelects = new Map();
 
   const segmentLabels = {
@@ -33,6 +35,35 @@
     other: "其他"
   };
   const redactionMarker = "[[REDACTED]]";
+
+  function readStoredCardSize() {
+    try {
+      const value = Number(window.localStorage.getItem("promptCardSize"));
+      return Number.isFinite(value) ? value : 0;
+    } catch (error) {
+      return 0;
+    }
+  }
+
+  function writeStoredCardSize(value) {
+    try {
+      window.localStorage.setItem("promptCardSize", String(value));
+    } catch (error) {
+      // Local files can run with storage disabled in some browsers.
+    }
+  }
+
+  function applyCardSize() {
+    const safeSize = Math.min(320, Math.max(130, Number(cardSize) || 180));
+    cardSize = safeSize;
+
+    if (cardSizeInput) {
+      cardSizeInput.value = String(safeSize);
+    }
+
+    list.style.setProperty("--prompt-card-min", `${safeSize}px`);
+    list.style.setProperty("--prompt-landscape-card-min", `${Math.round(safeSize * 1.55)}px`);
+  }
 
   function textOf(value) {
     return (value || "").trim();
@@ -256,10 +287,10 @@
     return keys
       .map((key) => {
         const value = textOf(prompt.segments && prompt.segments[key]).replaceAll(redactionMarker, "[受限]");
-        return value ? `${segmentLabels[key]}: ${value}` : "";
+        return value;
       })
       .filter(Boolean)
-      .join("\n");
+      .join(", ");
   }
 
   function renderSegmentValue(value) {
@@ -465,6 +496,16 @@
       renderList();
     });
   });
+
+  applyCardSize();
+
+  if (cardSizeInput) {
+    cardSizeInput.addEventListener("input", () => {
+      cardSize = Number(cardSizeInput.value) || 180;
+      applyCardSize();
+      writeStoredCardSize(cardSize);
+    });
+  }
 
   if (searchInput) {
     searchInput.addEventListener("input", () => {

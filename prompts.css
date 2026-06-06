@@ -1,11 +1,11 @@
 ﻿/* Prompt archive page styles. Keep this file isolated from homepage/character page edits. */
 
 .prompt-shell {
-  padding: clamp(16px, 1.6vw, 28px);
+  padding: clamp(10px, 1vw, 20px);
 }
 
 .prompt-shell .browser-frame {
-  width: min(1840px, calc(100vw - 48px));
+  width: 100%;
   max-width: none;
   min-height: calc(100vh - clamp(32px, 3.2vw, 56px));
   margin: 0 auto;
@@ -485,6 +485,7 @@
   align-items: center;
   justify-content: flex-end;
   gap: 10px;
+  flex-wrap: wrap;
 }
 
 .prompt-sort-control {
@@ -528,6 +529,34 @@
   transition: border-color 160ms ease, background 160ms ease, box-shadow 160ms ease, transform 160ms ease, color 160ms ease;
 }
 
+.prompt-card-size-control {
+  min-height: 42px;
+  min-width: 190px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0 12px;
+  border: 1px solid rgba(87, 223, 242, 0.34);
+  border-radius: var(--radius);
+  background:
+    linear-gradient(90deg, rgba(87, 223, 242, 0.16), rgba(87, 223, 242, 0)),
+    rgba(255, 255, 255, 0.035);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.025);
+}
+
+.prompt-card-size-control span {
+  flex: 0 0 auto;
+  color: rgba(248, 251, 255, 0.76);
+  font-size: 0.72rem;
+  font-weight: 900;
+}
+
+.prompt-card-size-control input {
+  width: 112px;
+  accent-color: #57dff2;
+  cursor: pointer;
+}
+
 .prompt-list {
   flex: 1;
   min-height: 0;
@@ -569,15 +598,16 @@
 .prompt-list.is-landscape-view {
   display: grid;
   align-items: start;
+  grid-auto-rows: max-content;
   gap: 12px;
 }
 
 .prompt-list.is-portrait-view {
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(var(--prompt-card-min, 180px), 1fr));
 }
 
 .prompt-list.is-landscape-view {
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(var(--prompt-landscape-card-min, 280px), 1fr));
 }
 
 .prompt-row {
@@ -599,6 +629,7 @@
 .prompt-card-view {
   min-height: 0;
   display: block;
+  margin: 0;
   padding: 0;
   overflow: hidden;
 }
@@ -640,13 +671,7 @@
 }
 
 .prompt-card-view .prompt-row-body small {
-  display: -webkit-box;
-  overflow: hidden;
-  color: rgba(248, 251, 255, 0.56);
-  font-size: 0.72rem;
-  line-height: 1.35;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
+  display: none;
 }
 
 .prompt-row-body {
@@ -1024,12 +1049,23 @@
     padding: 0 6px;
   }
 
+  .prompt-card-size-control {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .prompt-card-size-control input {
+    flex: 1;
+    min-width: 0;
+    width: auto;
+  }
+
   .prompt-list.is-portrait-view {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(min(var(--prompt-card-min, 180px), 100%), 1fr));
   }
 
   .prompt-list.is-landscape-view {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(auto-fill, minmax(min(var(--prompt-landscape-card-min, 280px), 100%), 1fr));
   }
 
   .prompt-row {
