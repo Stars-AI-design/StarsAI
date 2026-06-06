@@ -1,7 +1,14 @@
 ﻿/* Prompt archive page styles. Keep this file isolated from homepage/character page edits. */
 
+.prompt-shell {
+  padding: clamp(16px, 1.6vw, 28px);
+}
+
 .prompt-shell .browser-frame {
-  min-height: calc(100vh - 68px);
+  width: min(1840px, calc(100vw - 48px));
+  max-width: none;
+  min-height: calc(100vh - clamp(32px, 3.2vw, 56px));
+  margin: 0 auto;
 }
 
 .prompt-page .gallery-nav {
@@ -19,7 +26,7 @@
 
 .prompt-workspace {
   display: grid;
-  grid-template-columns: 240px minmax(360px, 1fr) 360px;
+  grid-template-columns: 240px minmax(560px, 1fr) 420px;
   gap: 18px;
   padding: 0 22px 28px;
 }
@@ -518,7 +525,7 @@
 }
 
 .prompt-list {
-  max-height: 760px;
+  max-height: clamp(640px, calc(100vh - 260px), 1040px);
   overflow: auto;
   padding: 10px;
 }
@@ -680,7 +687,7 @@
   position: sticky;
   top: 24px;
   align-self: start;
-  max-height: calc(100vh - 72px);
+  max-height: calc(100vh - clamp(64px, 5vw, 92px));
   overflow: auto;
   padding: 16px;
 }
@@ -909,7 +916,12 @@
 }
 
 @media (max-width: 760px) {
+  .prompt-shell {
+    padding: 0;
+  }
+
   .prompt-shell .browser-frame {
+    width: 100%;
     min-height: 100vh;
   }
 
