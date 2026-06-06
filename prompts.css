@@ -617,6 +617,7 @@
 }
 
 .prompt-card-view img {
+  display: block;
   width: 100%;
   height: auto;
   border-radius: 0;
@@ -630,6 +631,8 @@
 
 .prompt-card-view .prompt-row-body {
   padding: 11px;
+  align-content: start;
+  gap: 6px;
 }
 
 .prompt-card-view .prompt-row-body strong {
@@ -637,7 +640,13 @@
 }
 
 .prompt-card-view .prompt-row-body small {
-  display: none;
+  display: -webkit-box;
+  overflow: hidden;
+  color: rgba(248, 251, 255, 0.56);
+  font-size: 0.72rem;
+  line-height: 1.35;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
 }
 
 .prompt-row-body {
